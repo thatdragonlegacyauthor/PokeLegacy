@@ -1,0 +1,364 @@
+{
+  "game_data_compendium": {
+    "chapter_12_abilitydex": {
+      "part_2": [
+        {
+          "name": "Hunger Switch",
+          "effect": "The Pokémon changes its form, alternately becoming hungry and full each turn."
+        },
+        {
+          "name": "Hustle",
+          "effect": "Boosts the Attack stat, but lowers accuracy."
+        },
+        {
+          "name": "Hydration",
+          "effect": "Heals status conditions if it's raining."
+        },
+        {
+          "name": "Hyper Cutter",
+          "effect": "Prevents other Pokémon from lowering the Pokémon's Attack stat."
+        },
+        {
+          "name": "Ice Body",
+          "effect": "The Pokémon gradually regains HP in a hailstorm."
+        },
+        {
+          "name": "Ice Face",
+          "effect": "The Pokémon's ice head can take a physical attack as a substitute, but the attack also changes the Pokémon's appearance. The ice will be restored when it hails."
+        },
+        {
+          "name": "Ice Scales",
+          "effect": "The Pokémon is protected by ice scales, which halve the damage taken from special moves."
+        },
+        {
+          "name": "Illuminate",
+          "effect": "Raises the likelihood of meeting wild Pokémon."
+        },
+        {
+          "name": "Illusion",
+          "effect": "Comes out disguised as the Pokémon in the party's last spot."
+        },
+        {
+          "name": "Immunity",
+          "effect": "Prevents the Pokémon from getting poisoned."
+        },
+        {
+          "name": "Imposter",
+          "effect": "The Pokémon transforms itself into the Pokémon it's facing."
+        },
+        {
+          "name": "Infiltrator",
+          "effect": "Passes through the opposing Pokémon's barrier, substitute, and the like and strikes."
+        },
+        {
+          "name": "Innards Out",
+          "effect": "Damages the attacker landing the finishing hit for HP equal to the amount of damage dealt."
+        },
+        {
+          "name": "Inner Focus",
+          "effect": "Protects the Pokémon from flinching."
+        },
+        {
+          "name": "Insomnia",
+          "effect": "Prevents the Pokémon from falling asleep."
+        },
+        {
+          "name": "Intimidate",
+          "effect": "Lowers the opposing Pokémon's Attack stat."
+        },
+        {
+          "name": "Intrepid Sword",
+          "effect": "Boosts the Pokémon's Attack stat when it enters a battle."
+        },
+        {
+          "name": "Iron Barbs",
+          "effect": "Inflicts damage on the attacker upon contact."
+        },
+        {
+          "name": "Iron Fist",
+          "effect": "Powers up punching moves."
+        },
+        {
+          "name": "Justified",
+          "effect": "Boosts the Attack stat when hit by a Dark-type move."
+        },
+        {
+          "name": "Keen Eye",
+          "effect": "Prevents other Pokémon from lowering accuracy."
+        },
+        {
+          "name": "Klutz",
+          "effect": "The Pokémon can't use any held items."
+        },
+        {
+          "name": "Leaf Guard",
+          "effect": "Prevents status conditions in harsh sunlight."
+        },
+        {
+          "name": "Levitate",
+          "effect": "Gives full immunity to all Ground-type moves."
+        },
+        {
+          "name": "Libero",
+          "effect": "Changes the Pokémon's type to the type of the move it's about to use."
+        },
+        {
+          "name": "Light Metal",
+          "effect": "Halves the Pokémon's weight."
+        },
+        {
+          "name": "Lightning Rod",
+          "effect": "Draws in all Electric-type moves to boost its own Special Attack stat."
+        },
+        {
+          "name": "Limber",
+          "effect": "Protects the Pokémon from paralysis."
+        },
+        {
+          "name": "Lingering Aroma",
+          "effect": "Contact with the Pokémon changes the attacker's Ability to Lingering Aroma."
+        },
+        {
+          "name": "Liquid Ooze",
+          "effect": "Damages attackers using any draining move."
+        },
+        {
+          "name": "Liquid Voice",
+          "effect": "All sound-based moves become Water-type moves."
+        },
+        {
+          "name": "Long Reach",
+          "effect": "The Pokémon uses its moves without making contact with the target."
+        },
+        {
+          "name": "Magic Bounce",
+          "effect": "Reflects status moves."
+        },
+        {
+          "name": "Magic Guard",
+          "effect": "The Pokémon only takes damage from attacks."
+        },
+        {
+          "name": "Magician",
+          "effect": "The Pokémon steals the held item of a Pokémon it hits with a move."
+        },
+        {
+          "name": "Magma Armor",
+          "effect": "Prevents the Pokémon from becoming frozen."
+        },
+        {
+          "name": "Magnet Pull",
+          "effect": "Prevents Steel-type Pokémon from escaping."
+        },
+        {
+          "name": "Marvel Scale",
+          "effect": "Boosts the Defense stat if the Pokémon has a status condition."
+        },
+        {
+          "name": "Mega Launcher",
+          "effect": "Powers up aura and pulse moves."
+        },
+        {
+          "name": "Merciless",
+          "effect": "The Pokémon's attacks become critical hits if the target is poisoned."
+        },
+        {
+          "name": "Mimicry",
+          "effect": "Changes the Pokémon's type depending on the terrain."
+        },
+        {
+          "name": "Minus",
+          "effect": "Boosts the Special Attack stat of a Pokémon with Plus or Minus."
+        },
+        {
+          "name": "Mirror Armor",
+          "effect": "Bounces back only the stat-lowering effects that the Pokémon receives."
+        },
+        {
+          "name": "Misty Surge",
+          "effect": "Turns the ground into Misty Terrain when the Pokémon enters a battle."
+        },
+        {
+          "name": "Mold Breaker",
+          "effect": "Moves can be used on the target regardless of its Abilities."
+        },
+        {
+          "name": "Moody",
+          "effect": "Raises one stat sharply and lowers another every turn."
+        },
+        {
+          "name": "Motor Drive",
+          "effect": "Boosts Speed if hit by an Electric-type move."
+        },
+        {
+          "name": "Moxie",
+          "effect": "Boosts the Attack stat after knocking out any Pokémon."
+        },
+        {
+          "name": "Multiscale",
+          "effect": "Reduces the amount of damage the Pokémon takes when its HP is full."
+        },
+        {
+          "name": "Multitype",
+          "effect": "Changes the Pokémon's type to match the Plate it holds."
+        },
+        {
+          "name": "Mummy",
+          "effect": "Contact with the Pokémon spreads this Ability."
+        },
+        {
+          "name": "Mycelium Might",
+          "effect": "The Pokémon will always act more slowly when using status moves, but these moves will be unimpeded by an opponent’s Ability."
+        },
+        {
+          "name": "Natural Cure",
+          "effect": "All status conditions heal when the Pokémon switches out."
+        },
+        {
+          "name": "Neuroforce",
+          "effect": "Powers up super-effective moves."
+        },
+        {
+          "name": "Neutralizing Gas",
+          "effect": "Suppresses the Abilities of all Pokémon on the field."
+        },
+        {
+          "name": "No Guard",
+          "effect": "Ensures attacks by or against the Pokémon land."
+        },
+        {
+          "name": "Normalize",
+          "effect": "All the Pokémon's moves become Normal type."
+        },
+        {
+          "name": "Oblivious",
+          "effect": "Prevents the Pokémon from becoming infatuated or taunted."
+        },
+        {
+          "name": "Orichalcum Pulse",
+          "effect": "Turns the sunlight harsh when the Pokémon enters a battle. The ancient pulse felt across the land also boosts its Attack stat in harsh sunlight."
+        },
+        {
+          "name": "Overcoat",
+          "effect": "Protects the Pokémon from things like sand, hail, and powder."
+        },
+        {
+          "name": "Overgrow",
+          "effect": "Powers up Grass-type moves when the Pokémon's HP is low."
+        },
+        {
+          "name": "Own Tempo",
+          "effect": "Prevents the Pokémon from becoming confused."
+        },
+        {
+          "name": "Parental Bond",
+          "effect": "Parent and child each attack."
+        },
+        {
+          "name": "Pastel Veil",
+          "effect": "Prevents the Pokémon and its allies from being poisoned."
+        },
+        {
+          "name": "Perish Body",
+          "effect": "When the Pokémon is hit by a move that makes direct contact, the Pokémon and the attacker will both faint in three turns unless they switch out of battle."
+        },
+        {
+          "name": "Pickpocket",
+          "effect": "Steals an item from an attacker that made direct contact."
+        },
+        {
+          "name": "Pickup",
+          "effect": "The Pokémon may pick up the item an opposing Pokémon used during a battle. It may pick up items outside of battle, too."
+        },
+        {
+          "name": "Pixilate",
+          "effect": "Normal-type moves become Fairy-type moves and get a power boost."
+        },
+        {
+          "name": "Plus",
+          "effect": "Boosts the Special Attack stat of a Pokémon with Plus or Minus."
+        },
+        {
+          "name": "Poison Heal",
+          "effect": "Restores HP if the Pokémon is poisoned."
+        },
+        {
+          "name": "Poison Point",
+          "effect": "Contact with the Pokémon may poison the attacker."
+        },
+        {
+          "name": "Poison Touch",
+          "effect": "May poison a target when the Pokémon makes contact."
+        },
+        {
+          "name": "Power Construct",
+          "effect": "Other cells gather to aid when the Pokémon's HP becomes half or less. Then the Pokémon changes its form to Complete Forme."
+        },
+        {
+          "name": "Power of Alchemy",
+          "effect": "The Pokémon copies the Ability of a defeated ally."
+        },
+        {
+          "name": "Power Spot",
+          "effect": "Just being next to the Pokémon powers up moves."
+        },
+        {
+          "name": "Prankster",
+          "effect": "Gives priority to a status move."
+        },
+        {
+          "name": "Pressure",
+          "effect": "The Pokémon raises the foe's PP usage."
+        },
+        {
+          "name": "Primordial Sea",
+          "effect": "The Pokémon changes the weather to nullify Fire-type moves."
+        },
+        {
+          "name": "Prism Armor",
+          "effect": "Reduces the power of super-effective attacks taken."
+        },
+        {
+          "name": "Propeller Tail",
+          "effect": "Ignores the effects of opposing Pokémon’s Abilities and moves that draw in moves, for example, Storm Drain."
+        },
+        {
+          "name": "Protean",
+          "effect": "Changes the Pokémon's type to the type of the move it's about to use."
+        },
+        {
+          "name": "Protosynthesis",
+          "effect": "Boosts the Pokémon’s most proficient stat in harsh sunlight or if the Pokémon is holding Booster Energy."
+        },
+        {
+          "name": "Psychic Surge",
+          "effect": "Turns the ground into Psychic Terrain when the Pokémon enters a battle."
+        },
+        {
+          "name": "Punk Rock",
+          "effect": "Boosts the power of sound-based moves. The Pokémon also takes half the damage from these kinds of moves."
+        },
+        {
+          "name": "Pure Power",
+          "effect": "Doubles the Pokémon's Attack stat."
+        },
+        {
+          "name": "Purifying Salt",
+          "effect": "The Pokémon’s pure salt protects it from status conditions and halves the damage taken from Ghost-type moves."
+        },
+        {
+          "name": "Queenly Majesty",
+          "effect": "Its majesty pressures the opposing Pokémon, making it unable to attack using priority moves."
+        },
+        {
+          "name": "Quick Draw",
+          "effect": "Enables the Pokémon to move first occasionally."
+        },
+        {
+          "name": "Quick Feet",
+          "effect": "Boosts the Speed stat if the Pokémon has a status condition."
+        }
+      ]
+    }
+  }
+}

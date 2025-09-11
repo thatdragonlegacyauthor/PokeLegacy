@@ -1,0 +1,542 @@
+{
+  "game_data_compendium": {
+    "chapter_11_movedex": {
+      "steel": [
+        {
+          "name": "Anchor Shot",
+          "type": "Steel",
+          "accuracy": "Strength + Brawl",
+          "damage": "Strength + 5",
+          "effect": "The target is trapped and cannot switch out."
+        },
+        {
+          "name": "Autotomize",
+          "type": "Steel",
+          "accuracy": "Automatic",
+          "damage": "None",
+          "effect": "Sharply raises the user's Dexterity by 2 and halves its weight."
+        },
+        {
+          "name": "Behemoth Bash",
+          "type": "Steel",
+          "accuracy": "Strength + Brawl",
+          "damage": "Strength + 6",
+          "effect": "If the target is Dynamaxed, this move's damage is doubled."
+        },
+        {
+          "name": "Behemoth Blade",
+          "type": "Steel",
+          "accuracy": "Strength + Brawl",
+          "damage": "Strength + 6",
+          "effect": "If the target is Dynamaxed, this move's damage is doubled."
+        },
+        {
+          "name": "Bullet Punch",
+          "type": "Steel",
+          "accuracy": "Strength + Brawl",
+          "damage": "Strength + 3",
+          "effect": "Priority."
+        },
+        {
+          "name": "Corkscrew Crash",
+          "type": "Steel",
+          "accuracy": "Varies",
+          "damage": "Varies",
+          "effect": "Z-Move. Base power and category depend on the original move."
+        },
+        {
+          "name": "Doom Desire",
+          "type": "Steel",
+          "accuracy": "Special + Channel",
+          "damage": "Special + 7",
+          "effect": "An attack that will strike the target two turns later."
+        },
+        {
+          "name": "Double Iron Bash",
+          "type": "Steel",
+          "accuracy": "Strength + Brawl",
+          "damage": "Strength + 4",
+          "effect": "This move hits twice. Roll 1d6 for each hit. On a 6, the target Flinches."
+        },
+        {
+          "name": "Flash Cannon",
+          "type": "Steel",
+          "accuracy": "Special + Channel",
+          "damage": "Special + 5",
+          "effect": "Roll 1d6. On a 6, the target's Special Defense is lowered by 1."
+        },
+        {
+          "name": "Gear Grind",
+          "type": "Steel",
+          "accuracy": "Strength + Brawl",
+          "damage": "Strength + 3",
+          "effect": "This move hits twice."
+        },
+        {
+          "name": "Gear Up",
+          "type": "Steel",
+          "accuracy": "Automatic",
+          "damage": "None",
+          "effect": "Raises the Strength and Special of allies with the Plus or Minus Ability by 1."
+        },
+        {
+          "name": "Gigaton Hammer",
+          "type": "Steel",
+          "accuracy": "Strength + Brawl",
+          "damage": "Strength + 8",
+          "effect": "This move cannot be used twice in a row."
+        },
+        {
+          "name": "Gyro Ball",
+          "type": "Steel",
+          "accuracy": "Strength + Brawl",
+          "damage": "Strength + X",
+          "effect": "Damage increases the slower the user is than the target."
+        },
+        {
+          "name": "Heavy Slam",
+          "type": "Steel",
+          "accuracy": "Strength + Brawl",
+          "damage": "Strength + X",
+          "effect": "Damage increases based on how much heavier the user is than the target."
+        },
+        {
+          "name": "Iron Defense",
+          "type": "Steel",
+          "accuracy": "Automatic",
+          "damage": "None",
+          "effect": "Sharply raises the user's Defense by 2."
+        },
+        {
+          "name": "Iron Head",
+          "type": "Steel",
+          "accuracy": "Strength + Brawl",
+          "damage": "Strength + 5",
+          "effect": "Roll 1d6. On a 6, the target Flinches."
+        },
+        {
+          "name": "Iron Tail",
+          "type": "Steel",
+          "accuracy": "Strength + Brawl",
+          "damage": "Strength + 6",
+          "effect": "Roll 1d6. On a 6, the target's Defense is lowered by 1. Low Accuracy."
+        },
+        {
+          "name": "King's Shield",
+          "type": "Steel",
+          "accuracy": "Automatic",
+          "damage": "None",
+          "effect": "Priority. Protects the user from all attacks. If a contact move is blocked, the attacker's Strength is lowered by 2. Changes Aegislash's form."
+        },
+        {
+          "name": "Make It Rain",
+          "type": "Steel",
+          "accuracy": "Special + Channel",
+          "damage": "Special + 6",
+          "effect": "Hits all adjacent opponents. Lowers the user's Special by 1. Scatters coins."
+        },
+        {
+          "name": "Metal Burst",
+          "type": "Steel",
+          "accuracy": "Strength + Brawl",
+          "damage": "Fixed",
+          "effect": "Priority (goes last). Deals damage equal to 1.5 times the damage last taken by the user."
+        },
+        {
+          "name": "Metal Claw",
+          "type": "Steel",
+          "accuracy": "Strength + Brawl",
+          "damage": "Strength + 3",
+          "effect": "Roll 1d6. On a 6, the user's Strength is raised by 1."
+        },
+        {
+          "name": "Metal Sound",
+          "type": "Steel",
+          "accuracy": "Special + Channel",
+          "damage": "None",
+          "effect": "Sharply lowers the target's Special Defense by 2."
+        },
+        {
+          "name": "Meteor Mash",
+          "type": "Steel",
+          "accuracy": "Strength + Brawl",
+          "damage": "Strength + 5",
+          "effect": "Roll 1d6. On a 6, the user's Strength is raised by 1."
+        },
+        {
+          "name": "Mirror Shot",
+          "type": "Steel",
+          "accuracy": "Special + Channel",
+          "damage": "Special + 4",
+          "effect": "Roll 1d6. On a 6, the target's Accuracy is lowered by 1."
+        },
+        {
+          "name": "Searing Sunraze Smash",
+          "type": "Steel",
+          "accuracy": "Strength + Brawl",
+          "damage": "Strength + 10",
+          "effect": "Z-Move. Ignores the target's Ability."
+        },
+        {
+          "name": "Shift Gear",
+          "type": "Steel",
+          "accuracy": "Automatic",
+          "damage": "None",
+          "effect": "Raises the user's Strength by 1 and sharply raises its Dexterity by 2."
+        },
+        {
+          "name": "Smart Strike",
+          "type": "Steel",
+          "accuracy": "Automatic",
+          "damage": "Strength + 4",
+          "effect": "This move never misses."
+        },
+        {
+          "name": "Spin Out",
+          "type": "Steel",
+          "accuracy": "Strength + Brawl",
+          "damage": "Strength + 6",
+          "effect": "Sharply lowers the user's Dexterity by 2."
+        },
+        {
+          "name": "Steel Beam",
+          "type": "Steel",
+          "accuracy": "Special + Channel",
+          "damage": "Special + 7",
+          "effect": "The user takes recoil damage equal to half of its max HP."
+        },
+        {
+          "name": "Steel Roller",
+          "type": "Steel",
+          "accuracy": "Strength + Brawl",
+          "damage": "Strength + 7",
+          "effect": "Destroys any active Terrain. Fails if no terrain is active."
+        },
+        {
+          "name": "Steel Wing",
+          "type": "Steel",
+          "accuracy": "Strength + Brawl",
+          "damage": "Strength + 4",
+          "effect": "Roll 1d6. On a 6, the user's Defense is raised by 1."
+        },
+        {
+          "name": "Sunsteel Strike",
+          "type": "Steel",
+          "accuracy": "Strength + Brawl",
+          "damage": "Strength + 6",
+          "effect": "Ignores the target's Ability."
+        }
+      ],
+      "water": [
+        {
+          "name": "Aqua Cutter",
+          "type": "Water",
+          "accuracy": "Strength + Brawl",
+          "damage": "Strength + 4",
+          "effect": "High Critical Hit Ratio."
+        },
+        {
+          "name": "Aqua Jet",
+          "type": "Water",
+          "accuracy": "Strength + Brawl",
+          "damage": "Strength + 3",
+          "effect": "Priority."
+        },
+        {
+          "name": "Aqua Ring",
+          "type": "Water",
+          "accuracy": "Automatic",
+          "damage": "None",
+          "effect": "The user restores 1/16 of its max HP each turn."
+        },
+        {
+          "name": "Aqua Step",
+          "type": "Water",
+          "accuracy": "Strength + Brawl",
+          "damage": "Strength + 5",
+          "effect": "Raises the user's Dexterity by 1."
+        },
+        {
+          "name": "Aqua Tail",
+          "type": "Water",
+          "accuracy": "Strength + Brawl",
+          "damage": "Strength + 5",
+          "effect": "None."
+        },
+        {
+          "name": "Brine",
+          "type": "Water",
+          "accuracy": "Special + Channel",
+          "damage": "Special + 4",
+          "effect": "If the target has less than half HP, this move's damage is doubled."
+        },
+        {
+          "name": "Bubble",
+          "type": "Water",
+          "accuracy": "Special + Channel",
+          "damage": "Special + 3",
+          "effect": "Roll 1d6. On a 6, the target's Dexterity is lowered by 1."
+        },
+        {
+          "name": "Bubble Beam",
+          "type": "Water",
+          "accuracy": "Special + Channel",
+          "damage": "Special + 4",
+          "effect": "Roll 1d6. On a 6, the target's Dexterity is lowered by 1."
+        },
+        {
+          "name": "Bouncy Bubble",
+          "type": "Water",
+          "accuracy": "Special + Channel",
+          "damage": "Special + 5",
+          "effect": "The user recovers HP equal to half the damage dealt."
+        },
+        {
+          "name": "Chilling Water",
+          "type": "Water",
+          "accuracy": "Special + Channel",
+          "damage": "Special + 3",
+          "effect": "Lowers the target's Strength by 1."
+        },
+        {
+          "name": "Clamp",
+          "type": "Water",
+          "accuracy": "Strength + Brawl",
+          "damage": "Strength + 2",
+          "effect": "The target is trapped and takes 1d6 damage at the end of each of its turns for 3 rounds."
+        },
+        {
+          "name": "Crabhammer",
+          "type": "Water",
+          "accuracy": "Strength + Brawl",
+          "damage": "Strength + 6",
+          "effect": "High Critical Hit Ratio."
+        },
+        {
+          "name": "Dive",
+          "type": "Water",
+          "accuracy": "Strength + Brawl",
+          "damage": "Strength + 5",
+          "effect": "The user dives underwater on the first turn, becoming invulnerable. On the second turn, it attacks."
+        },
+        {
+          "name": "Fishious Rend",
+          "type": "Water",
+          "accuracy": "Strength + Brawl",
+          "damage": "Strength + 5",
+          "effect": "If the user acts before the target, this move's damage is doubled."
+        },
+        {
+          "name": "Flip Turn",
+          "type": "Water",
+          "accuracy": "Strength + Brawl",
+          "damage": "Strength + 4",
+          "effect": "After attacking, the user switches out."
+        },
+        {
+          "name": "Hydro Cannon",
+          "type": "Water",
+          "accuracy": "Special + Channel",
+          "damage": "Special + 8",
+          "effect": "The user must recharge on the next turn."
+        },
+        {
+          "name": "Hydro Pump",
+          "type": "Water",
+          "accuracy": "Special + Channel",
+          "damage": "Special + 6",
+          "effect": "Low Accuracy."
+        },
+        {
+          "name": "Hydro Vortex",
+          "type": "Water",
+          "accuracy": "Varies",
+          "damage": "Varies",
+          "effect": "Z-Move. Base power and category depend on the original move."
+        },
+        {
+          "name": "Jet Punch",
+          "type": "Water",
+          "accuracy": "Strength + Brawl",
+          "damage": "Strength + 4",
+          "effect": "Priority."
+        },
+        {
+          "name": "Life Dew",
+          "type": "Water",
+          "accuracy": "Automatic",
+          "damage": "None",
+          "effect": "The user and its allies recover 1/4 of their max HP."
+        },
+        {
+          "name": "Liquidation",
+          "type": "Water",
+          "accuracy": "Strength + Brawl",
+          "damage": "Strength + 5",
+          "effect": "Roll 1d6. On a 6, the target's Defense is lowered by 1."
+        },
+        {
+          "name": "Octazooka",
+          "type": "Water",
+          "accuracy": "Special + Channel",
+          "damage": "Special + 4",
+          "effect": "Roll 1d6. On a 5 or 6, the target's Accuracy is lowered by 1."
+        },
+        {
+          "name": "Octolock",
+          "type": "Water",
+          "accuracy": "Automatic",
+          "damage": "None",
+          "effect": "The target is trapped and its Defense and Special Defense are lowered each turn."
+        },
+        {
+          "name": "Origin Pulse",
+          "type": "Water",
+          "accuracy": "Special + Channel",
+          "damage": "Special + 6",
+          "effect": "Hits all adjacent opponents."
+        },
+        {
+          "name": "Purify",
+          "type": "Water",
+          "accuracy": "Automatic",
+          "damage": "None",
+          "effect": "Cures an ally's status ailment and restores some of the user's HP."
+        },
+        {
+          "name": "Rain Dance",
+          "type": "Water",
+          "accuracy": "Automatic",
+          "damage": "None",
+          "effect": "Creates Rain Weather for 5 rounds."
+        },
+        {
+          "name": "Razor Shell",
+          "type": "Water",
+          "accuracy": "Strength + Brawl",
+          "damage": "Strength + 4",
+          "effect": "Roll 1d6. On a 5 or 6, the target's Defense is lowered by 1."
+        },
+        {
+          "name": "Scald",
+          "type": "Water",
+          "accuracy": "Special + Channel",
+          "damage": "Special + 5",
+          "effect": "Roll 1d6. On a 6, the target is Burned."
+        },
+        {
+          "name": "Snipe Shot",
+          "type": "Water",
+          "accuracy": "Special + Channel",
+          "damage": "Special + 5",
+          "effect": "High Critical Hit Ratio. Ignores redirection effects."
+        },
+        {
+          "name": "Soak",
+          "type": "Water",
+          "accuracy": "Special + Channel",
+          "damage": "None",
+          "effect": "Changes the target's type to Water."
+        },
+        {
+          "name": "Sparkling Aria",
+          "type": "Water",
+          "accuracy": "Special + Channel",
+          "damage": "Special + 5",
+          "effect": "Hits all adjacent Pokémon. Cures the target of its burn."
+        },
+        {
+          "name": "Splishy Splash",
+          "type": "Water",
+          "accuracy": "Special + Channel",
+          "damage": "Special + 5",
+          "effect": "Hits all adjacent opponents. Roll 1d6. On a 6, targets are Paralyzed."
+        },
+        {
+          "name": "Steam Eruption",
+          "type": "Water",
+          "accuracy": "Special + Channel",
+          "damage": "Special + 6",
+          "effect": "Roll 1d6. On a 6, the target is Burned."
+        },
+        {
+          "name": "Surf",
+          "type": "Water",
+          "accuracy": "Special + Channel",
+          "damage": "Special + 5",
+          "effect": "Hits all adjacent Pokémon. Deals double damage to Pokémon underwater."
+        },
+        {
+          "name": "Surging Strikes",
+          "type": "Water",
+          "accuracy": "Strength + Brawl",
+          "damage": "Strength + 2",
+          "effect": "This move hits three times and is always a critical hit."
+        },
+        {
+          "name": "Water Gun",
+          "type": "Water",
+          "accuracy": "Special + Channel",
+          "damage": "Special + 3",
+          "effect": "None."
+        },
+        {
+          "name": "Water Pledge",
+          "type": "Water",
+          "accuracy": "Special + Channel",
+          "damage": "Special + 5",
+          "effect": "If used with Fire Pledge, creates a rainbow. If used with Grass Pledge, creates a swamp."
+        },
+        {
+          "name": "Water Pulse",
+          "type": "Water",
+          "accuracy": "Special + Channel",
+          "damage": "Special + 4",
+          "effect": "Roll 1d6. On a 6, the target is Confused."
+        },
+        {
+          "name": "Water Shuriken",
+          "type": "Water",
+          "accuracy": "Special + Channel",
+          "damage": "Special + 1",
+          "effect": "Priority. This move hits 2 to 5 times."
+        },
+        {
+          "name": "Water Spout",
+          "type": "Water",
+          "accuracy": "Special + Channel",
+          "damage": "Special + 8",
+          "effect": "Hits all adjacent opponents. Damage is reduced the lower the user's HP is."
+        },
+        {
+          "name": "Waterfall",
+          "type": "Water",
+          "accuracy": "Strength + Brawl",
+          "damage": "Strength + 5",
+          "effect": "Roll 1d6. On a 6, the target Flinches."
+        },
+        {
+          "name": "Wave Crash",
+          "type": "Water",
+          "accuracy": "Strength + Brawl",
+          "damage": "Strength + 6",
+          "effect": "The user takes recoil damage equal to 1/3 of the damage dealt."
+        },
+        {
+          "name": "Whirlpool",
+          "type": "Water",
+          "accuracy": "Special + Channel",
+          "damage": "Special + 2",
+          "effect": "The target is trapped and takes 1d6 damage at the end of each of its turns for 3 rounds."
+        },
+        {
+          "name": "Withdraw",
+          "type": "Water",
+          "accuracy": "Automatic",
+          "damage": "None",
+          "effect": "Raises the user's Defense by 1."
+        }
+      ]
+    }
+  }
+}

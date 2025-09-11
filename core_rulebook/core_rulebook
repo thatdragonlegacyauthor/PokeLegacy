@@ -1,0 +1,854 @@
+{
+  "pokemon_legacy_data": {
+    "core_rulebook": {
+      "chapter_1_the_core_system": {
+        "title": "The Core System",
+        "description": "This chapter details the fundamental concepts and mechanics that govern the Pokemon Legacy TTRPG. Understanding these rules is essential for both players and the Storyteller.",
+        "source": "POKEROLE COREBOOK 3.0-001.pdf",
+        "attributes": {
+          "description": "Attributes represent a character's innate physical, mental, and social capabilities. Each point represents one die to add to a dice pool. Humans start with 1 point in each and have a limit of 5.",
+          "source": "POKEROLE COREBOOK 3.0-001.pdf",
+          "physical_mental": [
+            "Strength",
+            "Dexterity",
+            "Vitality",
+            "Insight",
+            "Special (Pokémon Only)"
+          ],
+          "social": [
+            "Tough",
+            "Cool",
+            "Beauty",
+            "Cute",
+            "Clever"
+          ]
+        },
+        "skills": {
+          "description": "Skills represent a character's training and expertise. They are always paired with an Attribute to form a dice pool.",
+          "source": "POKEROLE COREBOOK 3.0-001.pdf",
+          "categories": {
+            "battle": ["Brawl", "Channel", "Clash", "Evasion", "Throw", "Weapons"],
+            "survival": ["Alert", "Athletic", "Nature", "Stealth"],
+            "social": ["Charm", "Empathy", "Etiquette", "Intimidate", "Perform"],
+            "knowledge": ["Crafts", "Lore", "Medicine", "Science"]
+          }
+        },
+        "derived_stats": {
+          "description": "These stats are calculated from your core Attributes.",
+          "source": "POKEROLE COREBOOK 3.0-001.pdf",
+          "health_points": {
+            "name": "Health Points (HP)",
+            "description": "A measure of your physical condition.",
+            "formula": "Base HP (4 for humans) + Vitality score"
+          },
+          "defenses": {
+            "name": "Defense & Special Defense",
+            "description": "Traits that protect you from damage. Campaigns will use one of two options.",
+            "options": [
+              {
+                "name": "Unified Defense",
+                "formula": "Defense and Special Defense are both equal to your Vitality score."
+              },
+              {
+                "name": "Split Defense",
+                "formula": "Defense is equal to your Vitality score, and Special Defense is equal to your Insight score."
+              }
+            ]
+          },
+          "will_points": {
+            "name": "Will Points (WP)",
+            "description": "Your inner strength and resolve. Can be spent to influence dice rolls or ignore pain.",
+            "formula": "Insight score + 3"
+          }
+        },
+        "dice_system": {
+          "name": "d6 Dice Pool",
+          "source": ["thatdragonlegacyauthor/pokettrpg/pokettrpg-860569b685794d6c009868bd2304f0e3b474af3a/core/core_engine_mechanics.json", "POKEROLE COREBOOK 3.0-001.pdf"],
+          "pool_construction": "Attribute score + Skill score.",
+          "success_threshold": "4, 5, or 6 on a d6.",
+          "difficulty_levels": {
+            "1": "Troublesome",
+            "2": "Challenging",
+            "3": "Hard",
+            "4": "Very Hard",
+            "5+": "Almost Impossible"
+          },
+          "critical_failure": {
+            "name": "Botch",
+            "condition": "Two or more dice show a '1'.",
+            "effect": "Subtract one Success from the total."
+          },
+          "asymmetrical_modifiers": {
+            "buffs": {
+              "timing": "pre_roll",
+              "effect": "Add dice to the pool."
+            },
+            "debuffs": {
+              "timing": "post_roll",
+              "effect": "Subtract successes from the result."
+            }
+          }
+        },
+        "relational_and_progression_concepts": {
+          "description": "Core concepts that govern character growth and interaction.",
+          "source": "POKEROLE COREBOOK 3.0-001.pdf",
+          "concepts": {
+            "happiness_and_loyalty": "Traits from 0-5 that define a Pokémon's relationship with its Trainer, influenced by roleplaying.",
+            "disobedience": "A Pokémon whose Rank is higher than its Trainer's may disobey commands.",
+            "ranks_and_training_points": "The core progression systems. Trainers gain Ranks via Achievements; Pokémon grow by spending Training Points."
+          }
+        }
+      },
+      "chapter_2_character_creation": {
+        "title": "Character Creation - The Trainer's Journey Begins",
+        "description": "This chapter guides you through a multi-step process that combines narrative background with mechanical choices to create a unique and compelling Trainer character.",
+        "source": "POKEROLE COREBOOK 3.0-001.pdf",
+        "steps": [
+          {
+            "step": 1,
+            "name": "The Core Concept - Who Are You?",
+            "description": "Before assigning any points, conceptualize your character by answering key questions about their identity, goals, and background.",
+            "source": "POKEROLE COREBOOK 3.0-001.pdf",
+            "prompts": [
+              {
+                "question": "What is your name and age?",
+                "mechanic": "Your character's age grants bonus points to distribute in Attributes and Social Attributes.",
+                "source": "POKEROLE COREBOOK 3.0-001.pdf",
+                "age_bonuses": {
+                  "Teen (Base)": "+2 Attribute Points, +2 Social Points",
+                  "Adult": "+4 Attribute Points, +4 Social Points",
+                  "Senior": "+3 Attribute Points, +6 Social Points"
+                }
+              },
+              {
+                "question": "What is your Nature?",
+                "mechanic": "Choose a Nature from the list in the Pokerole Corebook (p. 46) to guide your roleplaying.",
+                "source": "POKEROLE COREBOOK 3.0-001.pdf"
+              },
+              {
+                "question": "What is your goal and motivation?",
+                "mechanic": "Define your character's primary objective, which will drive their actions throughout the story.",
+                "source": "POKEROLE COREBOOK 3.0-001.pdf"
+              }
+            ]
+          },
+          {
+            "step": 2,
+            "name": "Origins - Where Do You Come From?",
+            "description": "Your Origin provides a mechanical foundation for your backstory, granting you skill talents, a special feature, starting equipment, and your first Pokémon partner(s).",
+            "source": "PTA3PlayersHandbook.pdf",
+            "reference": "Choose one Origin from the PTA Player's Handbook (p. 90).",
+            "benefits": [
+              "Skill Talents",
+              "A unique Feature",
+              "Starting Equipment and Money (based on Lifestyle)",
+              "Starting Pokémon"
+            ]
+          },
+          {
+            "step": 3,
+            "name": "Attributes & Skills - Defining Your Capabilities",
+            "description": "Assign the points that define your character's raw abilities and trained skills.",
+            "source": "POKEROLE COREBOOK 3.0-001.pdf",
+            "attributes": {
+              "action": "Distribute points granted by your Age and starting Rank. All humans start with a base of 1 point in each.",
+              "source": "POKEROLE COREBOOK 3.0-001.pdf"
+            },
+            "skills": {
+              "action": "Distribute the points granted by your starting Rank. Your Rank also determines the maximum number of points you can place in a single skill.",
+              "source": "POKEROLE COREBOOK 3.0-001.pdf"
+            }
+          },
+          {
+            "step": 4,
+            "name": "Final Touches",
+            "description": "Calculate your final derived stats.",
+            "derived_stats": [
+              {
+                "name": "Health Points (HP)",
+                "formula": "Base HP (4 for humans) + your Vitality score",
+                "source": "POKEROLE COREBOOK 3.0-001.pdf"
+              },
+              {
+                "name": "Will Points (WP)",
+                "formula": "Your Insight score + 3",
+                "source": "POKEROLE COREBOOK 3.0-001.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      "chapter_3_trainer_classes": {
+        "title": "Trainer Classes - Your Path to Mastery",
+        "description": "Your Trainer Class defines your specializations, granting unique abilities and defining your role within the party. When you create your character, you choose a Base Class. As you achieve new Ranks, you can specialize by choosing an Advanced Class.",
+        "source": "PTA3PlayersHandbook.pdf",
+        "base_classes": {
+          "ace_trainer": {
+            "name": "Ace Trainer",
+            "description": "The expert battler, using wit and strength to maneuver the battlefield and power through any forces that might stand in their way.",
+            "primary_stats": ["Attack", "Special Attack"],
+            "skill_talents": "Choose two from: Acrobatics, Athletics, Concentration, Diplomacy/Persuasion, History, Pokémon Handling.",
+            "starting_features_rank_1": [
+              {
+                "name": "Improved Attacks",
+                "description": "Your Pokémon deal additional damage equal to your Attack or Special Attack modifier when they hit with a corresponding attack."
+              },
+              {
+                "name": "Affirmation",
+                "description": "When your Pokémon knocks out an opponent or scores a critical hit, they gain temporary hit points equal to your Attack or Special Attack modifier."
+              }
+            ],
+            "advanced_classes": {
+                "stat_ace": "Obsesses over fine-tuning a specific trait, like building a team of ultimate strikers or unbreakable defenders.",
+                "strategist": "Prefers to set up the field of battle in their favor, creating openings and tricky advantages.",
+                "tag_battler": "Works with two Pokémon in harmony, overwhelming foes through coordination and teamwork.",
+                "type_ace": "Possesses an undying love for a specific elemental type, driving their Pokémon to embrace that element.",
+                "underdog": "Sees the potential in unevolved Pokémon, bringing out their hidden strength."
+            }
+          },
+          "breeder": {
+            "name": "Breeder",
+            "description": "Lovingly raises Pokémon as if they are their own children from the first day they hatch, imbuing them with care and nurturing.",
+            "primary_stats": ["Defense", "Special Defense"],
+            "skill_talents": "Choose two from: Constitution, Diplomacy/Persuasion, History, Medicine, Nature, Pokémon Handling.",
+            "starting_features_rank_1": [
+              {
+                "name": "Hatcher",
+                "description": "Pokémon eggs in your care hatch with particular haste, never taking longer than 72 hours."
+              },
+              {
+                "name": "Natural Edge",
+                "description": "When you hatch an egg, you can choose one of the Pokémon's stats to be permanently raised."
+              }
+            ],
+            "advanced_classes": {
+                "botanist": "Raises various miniature plants and berries with special care and attention.",
+                "chef": "A culinary expert whose friends and Pokémon eat like kings.",
+                "evolver": "Creates highly sought-after mega stones, revealing a powerful bond with their Pokémon.",
+                "medic": "Studies human and Pokémon anatomy to provide life-saving medical precision on the field of battle.",
+                "move_tutor": "Observes Pokémon and brings out unusual abilities and moves from where you'd least expect them."
+            }
+          },
+          "coordinator": {
+            "name": "Coordinator",
+            "description": "Always at the center of attention, Coordinators invent beautiful strategies to dazzle and amaze in contests.",
+            "primary_stats": ["Special Defense", "Speed"],
+            "skill_talents": "Choose two from: Acrobatics, Athletics, Bluff/Deception, Diplomacy/Persuasion, Perform, Sleight of Hand.",
+            "starting_features_rank_1": [
+              {
+                "name": "Put Your Hands in the Air",
+                "description": "3/day, you can either boost a contest appeal or have your Pokémon use Helping Hand."
+              },
+              {
+                "name": "Wonderous Applause",
+                "description": "3/day, you can either enhance a contest appeal or have your Pokémon use Encore."
+              }
+            ],
+            "advanced_classes": {
+                "choreographer": "Teaches Pokémon to always move with intention to the rhythm of battle and the stage.",
+                "coach": "Pushes Pokémon through harsh physical training to help them perform better than ever.",
+                "designer": "Creates beautiful and practical works of art for people and Pokémon to wear.",
+                "groomer": "Tends to the individual needs of Pokémon, styling them to perfection.",
+                "rising_star": "Knows how to manage their brand and climb the social echelon, benefiting from fame and fandom."
+            }
+          },
+          "ranger": {
+            "name": "Ranger",
+            "description": "As the guardians of the Pokémon world's natural spaces, Rangers serve and protect Pokémon, putting themselves on the line.",
+            "primary_stats": ["Defense", "Speed"],
+            "prerequisite": "You must have the Ranger Union/Law Enforcement origin to take this class.",
+            "skill_talents": "Choose two from: Acrobatics, Athletics, Diplomacy/Persuasion, Perception, Pokémon Handling, Stealth.",
+            "starting_features_rank_1": [
+              {
+                "name": "Authority Figure",
+                "description": "You are respected by other Rangers and the public. Ranger stations are obligated to lend you aid."
+              },
+              {
+                "name": "Befriend",
+                "description": "3/day, you can use your styler to make a non-agitated wild Pokémon 'Helpful,' placing it temporarily under your guidance."
+              }
+            ],
+            "advanced_classes": {
+                "invoker": "Practices the use of guardian symbols to summon forth the power of legendary Pokémon.",
+                "officer": "A gumshoe ranger concerned with the city limits, paying close attention to the manmade world to solve cases.",
+                "rider": "Masters acrobatic prowess on Pokémon mounts, staying on top of the action.",
+                "special_operative": "Gears up for serious conflict with a license to wield powerful, complicated ranger gear.",
+                "survivalist": "Could disappear into the wilds and live comfortably, dedicating themselves to preserving nature."
+            }
+          },
+          "researcher": {
+            "name": "Researcher",
+            "description": "A walking database who spends years committing every bit of knowledge to memory in order to maximize their chances of success.",
+            "primary_stats": ["Special Attack", "Special Defense"],
+            "skill_talents": "Choose two from: Engineering/Operation, History, Investigate, Medicine, Perception, Programming.",
+            "starting_features_rank_1": [
+              {
+                "name": "Field Commander",
+                "description": "You may issue commands to an allied Trainer's Pokémon (with their consent)."
+              },
+              {
+                "name": "Walking Encyclopedia",
+                "description": "You have already memorized the Pokédex and can access its information freely without using a device in-game."
+              }
+            ],
+            "advanced_classes": {
+                "archeologist": "Looks to the past to solve the problems of the present, using fossils to reanimate ancient Pokémon.",
+                "ball_smith": "Studies the ancient art of transforming apricorns into capture devices, inventing any kind of Poké Ball.",
+                "photographer": "Uses a skilled eye and a steady hand to bring out the best of any shot, an alternative to strictly academic studies.",
+                "scientist": "Throws formulas together to produce various items and concoctions.",
+                "watcher": "A field researcher who studies, tracks, and locates wild Pokémon with a calm and unobtrusive presence."
+            }
+          }
+        },
+        "class_progression": {
+          "title": "Gaining Advanced Classes",
+          "description": "As you progress and gain Ranks, you will unlock the ability to specialize further. This progression is based on milestones from the PTA system, adapted to our Ranks.",
+          "source": "PTA3PlayersHandbook.pdf",
+          "milestones": [
+            {
+              "rank_requirement": "Standard Rank (Rank 3)",
+              "reward": "Choose your first Advanced Class or a new Base Class."
+            },
+            {
+              "rank_requirement": "Master Rank (Rank 7)",
+              "reward": "Choose your second Advanced Class or a new Base Class."
+            }
+          ]
+        }
+      },
+      "chapter_4_the_rank_system": {
+        "title": "The Rank System - Forging Your Legacy",
+        "description": "A character's growth is measured by Ranks. This progression system, rooted in Pokerole 3.0, provides a clear path for both Trainers and their Pokémon to become more powerful and skilled as they accumulate experience.",
+        "source": "POKEROLE COREBOOK 3.0-001.pdf",
+        "trainer_progression": {
+          "title": "The Path of a Trainer: Ranks and Achievements",
+          "description": "To advance to a new Rank, a Trainer must complete a series of Achievements—narrative milestones that signify their progress. These are set by the Storyteller and inspired by the 'Honors' system from PTA.",
+          "source": ["POKEROLE COREBOOK 3.0-001.pdf", "PTA3PlayersHandbook.pdf"],
+          "example_achievements": [
+            "Winning your first Gym Badge.",
+            "Evolving one of your Pokémon.",
+            "Winning a Contest Ribbon.",
+            "Thwarting the plans of a villainous team.",
+            "Seeing a set number of different Pokémon species."
+          ]
+        },
+        "ranks": [
+          {
+            "rank": 1,
+            "name": "Starter",
+            "description": "The rank of a beginner with no real experience. Kids, baby Pokémon, and sheltered creatures are all at this Rank.",
+            "source": "POKEROLE COREBOOK 3.0-001.pdf",
+            "benefits": {
+              "skill_points": 5,
+              "skill_limit": 1,
+              "max_targets_in_battle": 1
+            }
+          },
+          {
+            "rank": 2,
+            "name": "Rookie",
+            "description": "The starting Rank for most aspiring Trainers embarking on their journey. Pokémon of this Rank are young with little combat experience.",
+            "source": "POKEROLE COREBOOK 3.0-001.pdf",
+            "benefits": {
+              "attribute_points": 2,
+              "social_attribute_points": 2,
+              "skill_points": 10,
+              "skill_limit": 2,
+              "max_targets_in_battle": 2
+            }
+          },
+          {
+            "rank": 3,
+            "name": "Standard",
+            "description": "Represents most Trainers in the world. No longer a novice, but still a long way from the top.",
+            "source": "POKEROLE COREBOOK 3.0-001.pdf",
+            "benefits": {
+              "attribute_points": 4,
+              "social_attribute_points": 4,
+              "skill_points": 14,
+              "skill_limit": 3,
+              "max_targets_in_battle": 3
+            }
+          },
+          {
+            "rank": 4,
+            "name": "Advanced",
+            "description": "Trainers who have the dedication and talent to rise above the average.",
+            "source": "POKEROLE COREBOOK 3.0-001.pdf",
+            "benefits": {
+              "attribute_points": 6,
+              "social_attribute_points": 6,
+              "skill_points": 17,
+              "skill_limit": 4,
+              "max_targets_in_battle": 4
+            }
+          },
+          {
+            "rank": 5,
+            "name": "Expert",
+            "description": "Trainers of the big leagues with top-tier strategies. Most Pokémon at this rank are fully evolved.",
+            "source": "POKEROLE COREBOOK 3.0-001.pdf",
+            "benefits": {
+              "attribute_points": 8,
+              "social_attribute_points": 8,
+              "skill_points": 19,
+              "skill_limit": 5,
+              "max_targets_in_battle": 5
+            }
+          },
+          {
+            "rank": 6,
+            "name": "Ace",
+            "description": "A role model among Trainers, on par with most Gym Leaders. Wild Pokémon of this rank are extremely rare.",
+            "source": "POKEROLE COREBOOK 3.0-001.pdf",
+            "benefits": {
+              "attribute_points": 10,
+              "social_attribute_points": 10,
+              "skill_points": 20,
+              "skill_limit": 5,
+              "max_targets_in_battle": 6
+            }
+          },
+          {
+            "rank": 7,
+            "name": "Master",
+            "description": "A Trainer who has explored every corner of their region and tamed the most ferocious Pokémon.",
+            "source": "POKEROLE COREBOOK 3.0-001.pdf",
+            "benefits": {
+              "attribute_points": 10,
+              "social_attribute_points": 10,
+              "skill_points": 22,
+              "special_bonus_1": "Roll 2 additional dice on all Rolls involving a Skill.",
+              "special_bonus_2": "HP, WILL, Base Initiative, DEF/S.DEF are increased by 3.",
+              "max_targets_in_battle": 8
+            }
+          },
+          {
+            "rank": 8,
+            "name": "Champion",
+            "description": "The highest title a Trainer can achieve, representing the pinnacle of the sport.",
+            "source": "POKEROLE COREBOOK 3.0-001.pdf",
+            "benefits": {
+              "attribute_points": 14,
+              "social_attribute_points": 14,
+              "skill_points": 25,
+              "special_bonus": "Attribute Scores can go up to 2 Points beyond the Limit.",
+              "max_targets_in_battle": 10
+            }
+          }
+        ]
+      },
+      "chapter_5_pokemon_battles": {
+        "title": "Pokémon Battles",
+        "description": "This chapter details the rules of engagement for combat, from the first move to the final outcome, blending tactical depth with narrative freedom.",
+        "source": ["POKEROLE COREBOOK 3.0-001.pdf", "PTA3PlayersHandbook.pdf", "thatdragonlegacyauthor/pokettrpg/pokettrpg-860569b685794d6c009868bd2304f0e3b474af3a/core/gameplay_protocols_combat.json"],
+        "type_effectiveness": {
+          "title": "Pokémon Types & Effectiveness",
+          "description": "Every Pokémon and every damaging move has one or two of the 18 known elemental Types. Understanding how these Types interact is crucial for victory.",
+          "source": "PTA3PlayersHandbook.pdf",
+          "mechanics": {
+            "super_effective": "Target is weak to the move's Type. Add 1 Extra Die to the Damage Dice Pool.",
+            "not_very_effective": "Target resists the move's Type. Remove 1 Die from the Damage Dice Pool.",
+            "immunity": "Target is immune to the move's Type. The move fails and deals no damage.",
+            "dual_types": "For Pokémon with two types, these effects stack (e.g., two weaknesses grants +2 dice; a weakness and a resistance cancel each other out)."
+          }
+        },
+        "flow_of_battle": {
+          "title": "The Flow of Battle",
+          "description": "Combat is structured in a sequence of rounds and turns to keep the action clear and organized.",
+          "initiative": {
+            "name": "Initiative",
+            "roll": "Dexterity + Alert",
+            "description": "At the start of battle, all participants roll. The character with the highest number of successes goes first.",
+            "source": "POKEROLE COREBOOK 3.0-001.pdf"
+          },
+          "round": {
+            "name": "Round",
+            "description": "A round consists of every combatant taking one turn in initiative order."
+          },
+          "turn": {
+            "name": "Turn & Multiple Actions",
+            "description": "On its turn, a character can perform up to five actions. The difficulty for each subsequent action increases.",
+            "source": ["thatdragonlegacyauthor/pokettrpg/pokettrpg-860569b685794d6c009868bd2304f0e3b474af3a/core/gameplay_protocols_combat.json", "POKEROLE COREBOOK 3.0-001.pdf"],
+            "difficulty_scale": [
+              {"action_number": 1, "required_successes": 1},
+              {"action_number": 2, "required_successes": 2},
+              {"action_number": 3, "required_successes": 3},
+              {"action_number": 4, "required_successes": 4},
+              {"action_number": 5, "required_successes": 5}
+            ]
+          }
+        },
+        "action_resolution": {
+          "title": "Resolving an Attack",
+          "description": "The sequence for determining the outcome of an attack.",
+          "sequence": [
+            {"step": 1, "name": "Declare Move & Target", "details": "The active Trainer declares which move their Pokémon is using and who the target is."},
+            {"step": 2, "name": "Roll Accuracy", "details": "The attacker rolls their dice pool (Attribute + Skill)."},
+            {"step": 3, "name": "Declare Reaction", "details": "The target may spend one of their actions to react by Evading (Dexterity + Evasion) or Clashing (Strength/Special + Clash)."},
+            {"step": 4, "name": "Determine Hit", "details": "If the attacker's successes are greater than the defender's successes, the attack hits."},
+            {"step": 5, "name": "Roll Damage", "details": "The attacker assembles a Damage Dice Pool: Attribute (Strength or Special) + Move Power, modified by Type-Effectiveness."},
+            {"step": 6, "name": "Apply Damage", "details": "The number of successes on the damage roll is the initial damage. The target reduces this damage by their Vitality score."}
+          ]
+        },
+        "health_and_fainting": {
+          "title": "Health & Fainting",
+          "pain_penalization": {
+            "description": "As a character takes damage, their performance suffers, removing successes from their rolls.",
+            "source": "POKEROLE COREBOOK 3.0-001.pdf",
+            "levels": [
+              {"hp_threshold": "Half HP or less", "penalty": "-1 Success from all action rolls."},
+              {"hp_threshold": "1 HP remaining", "penalty": "-2 Successes from all action rolls."}
+            ]
+          },
+          "fainting": {
+            "condition": "HP is reduced to 0.",
+            "effect": "The character is unable to take any more actions in the battle."
+          },
+          "lethal_damage_optional_rule": {
+            "description": "For a more gritty campaign, if a fainted character continues to take damage equal to their maximum HP, they are at risk of death.",
+            "source": "POKEROLE COREBOOK 3.0-001.pdf"
+          }
+        },
+        "status_effects": {
+          "title": "Status Ailments & Conditions",
+          "description": "Lasting effects that can turn the tide of battle. A Pokémon can only have one primary Status Ailment at a time, but can have multiple volatile Conditions.",
+          "source": ["PTA3PlayersHandbook.pdf", "POKEROLE COREBOOK 3.0-001.pdf"],
+          "primary_ailments": [
+            {"name": "Burned", "category": "Fixed", "effect": "Character has -2 to Attack stat and loses 1d10 HP after acting. Fire-types are immune."},
+            {"name": "Frozen", "category": "Fixed", "effect": "Character is unable to act. Can attempt to break free with a Strength + Athletic roll. Ice-types are immune."},
+            {"name": "Paralyzed", "category": "Fixed", "effect": "Character's Dexterity is reduced by 2. Has a chance to be unable to act on their turn. Electric-types are immune."},
+            {"name": "Poisoned", "category": "Fixed", "effect": "Character loses 1d10 HP after acting. Poison- and Steel-types are immune."},
+            {"name": "Badly Poisoned / Toxified", "category": "Aggravating", "effect": "Character takes increasing damage each turn. Poison- and Steel-types are immune."},
+            {"name": "Asleep", "category": "Fixed", "effect": "Character cannot act. Can attempt to wake up with an Insight roll."}
+          ],
+          "volatile_conditions": [
+            {"name": "Confused", "effect": "Character may hit themselves instead of performing an action."},
+            {"name": "Infatuated", "effect": "Character may be unable to attack the object of their affection."},
+            {"name": "Flinched", "effect": "Character loses their next action for the current round."}
+          ]
+        },
+        "weather_conditions": {
+          "title": "Weather Conditions",
+          "description": "Certain moves or abilities can alter the weather on the battlefield, creating advantages and disadvantages for all combatants.",
+          "source": "POKEROLE COREBOOK 3.0-001.pdf",
+          "types": [
+            {"name": "Sunny Weather", "effects": ["Fire-type moves add +1 die to damage.", "Water-type moves have total damage reduced by 1.", "Prevents the Frozen status."]},
+            {"name": "Rain Weather", "effects": ["Water-type moves add +1 die to damage.", "Fire-type moves have total damage reduced by 1.", "Prevents the Burned status."]},
+            {"name": "Sandstorm Weather", "effects": ["Damages non-Rock, Ground, or Steel-types each round.", "Increases the Special Defense of Rock-types by 1."]},
+            {"name": "Hail / Snowy Weather", "effects": ["Damages non-Ice-types each round.", "Increases the Defense of Ice-types by 1."]}
+          ]
+        }
+      },
+      "chapter_6_acquiring_pokemon": {
+        "title": "Acquiring Pokémon",
+        "description": "This chapter covers the rules for finding, battling, and befriending the countless creatures that inhabit the world.",
+        "source": ["POKEROLE COREBOOK 3.0-001.pdf", "PTA3PlayersHandbook.pdf"],
+        "finding_wild_pokemon": {
+          "title": "Habitats",
+          "description": "Pokémon live in habitats that suit their biology. To find a specific Pokémon, you must explore the environments they call home.",
+          "source": "POKEROLE COREBOOK 3.0-001.pdf",
+          "habitat_list": [
+            {"name": "Towns/Cities", "description": "Home to Normal, Electric, Dark, and Poison-types adapted to urban life."},
+            {"name": "Plains/Grassland", "description": "The iconic tall grass is where you're most likely to find Normal, Flying, and other common Pokémon."},
+            {"name": "Forest/Jungle", "description": "Teeming with Grass, Bug, and Poison-types. At night, Ghost and Fairy-types may emerge."},
+            {"name": "Lakes/Rivers/Sea", "description": "The domain of Water-types, accessible by surfing or with a fishing rod."},
+            {"name": "Caves/Mountains", "description": "The natural home of Rock, Ground, and Steel-types. Fighting-types often train here."},
+            {"name": "Desert/Volcanoes", "description": "Harsh environments that attract resilient Ground, Fire, and Dragon-type Pokémon."},
+            {"name": "Arctic Regions", "description": "Frigid landscapes where Ice-types are most commonly found."}
+          ]
+        },
+        "capture_mechanic": {
+          "title": "The Capture Mechanic",
+          "description": "To capture a wild Pokémon, a Trainer must typically weaken it in battle first. The process uses our core d6 Dice Pool system.",
+          "source": "POKEROLE COREBOOK 3.0-001.pdf",
+          "steps": [
+            {"step": 1, "name": "Weaken the Target", "details": "Lower the Pokémon's HP and inflict Status Ailments to earn bonus successes on your capture roll."},
+            {"step": 2, "name": "Throw a Poké Ball", "details": "As an action, make an accuracy roll of Dexterity + Throw to hit the wild Pokémon."},
+            {"step": 3, "name": "Make the Capture Roll", "details": "If the ball hits, roll a d6 Dice Pool equal to the Poké Ball's 'Seal Potency'."},
+            {"step": 4, "name": "Determine Success", "details": "Compare your total successes (dice roll + bonus successes) to the successes required by the Pokémon's Rank."}
+          ],
+          "required_successes_by_rank": [
+            {"rank": "Starter", "successes": 3},
+            {"rank": "Rookie", "successes": 4},
+            {"rank": "Standard", "successes": 6},
+            {"rank": "Advanced", "successes": 8},
+            {"rank": "Expert", "successes": 9},
+            {"rank": "Ace", "successes": 10}
+          ],
+          "bonus_successes_from_condition": [
+            {"condition": "Pokémon is at Half HP or less", "bonus": "+1 Success"},
+            {"condition": "Pokémon is at 1 HP", "bonus": "+2 Successes"},
+            {"condition": "Pokémon has a Status Ailment", "bonus": "+1 Success per Ailment"}
+          ],
+          "fainting_note": "Capturing a fainted Pokémon is difficult. You lose ALL bonus successes. If successful, the Pokémon's starting Happiness and Loyalty will be 0."
+        },
+        "poke_balls": {
+          "title": "Poké Balls",
+          "description": "Different Poké Balls have different Seal Potencies and special effects that can aid in capture.",
+          "ball_list": [
+            {"name": "Poké Ball", "seal_potency": "4 dice", "effect": "The standard device."},
+            {"name": "Great Ball", "seal_potency": "6 dice", "effect": "A higher performance model."},
+            {"name": "Ultra Ball", "seal_potency": "8 dice", "effect": "The best commercially available ball."},
+            {"name": "Quick Ball", "seal_potency": "9 dice", "effect": "Potency is 9 on the first round of combat only, decreasing by 2 dice each round after."},
+            {"name": "Timer Ball", "seal_potency": "4 dice", "effect": "Gains +1 die to its pool for every two rounds that have passed, up to a maximum of 10 dice."},
+            {"name": "Net Ball", "seal_potency": "6 dice", "effect": "Grants +4 automatic successes if the target is a Bug or Water type."},
+            {"name": "Heavy Ball", "seal_potency": "6 dice", "effect": "Grants +4 automatic successes if the target is Heavy or Superweight."},
+            {"name": "Luxury Ball", "seal_potency": "6 dice", "effect": "If the capture is successful, the Pokémon starts with +1 Happiness."},
+            {"name": "Master Ball", "seal_potency": "Automatic Success", "effect": "A prototype that is said to never fail against non-Legendary Pokémon."}
+          ]
+        },
+        "alternatives_to_capturing": {
+          "title": "Alternatives to Capturing",
+          "description": "Not all Pokémon are met in battle. There are several other ways to add a new member to your team.",
+          "methods": [
+            {
+              "name": "Pokémon Eggs",
+              "description": "Leave two compatible Pokémon in a Day-Care or other private space. The trainer may then make a Breeding Check.",
+              "mechanic": "Roll 1d100. On a result of 15 or lower, an egg is found.",
+              "source": "PTA3PlayersHandbook.pdf"
+            },
+            {
+              "name": "Fossil Reanimation",
+              "description": "Ancient fossils can be taken to a lab to be revived.",
+              "mechanic": "Make a Reanimation Check by rolling 1d20. On a 9-19, an egg is created. On a 20, an egg is created and the fossil might survive.",
+              "source": "PTA3PlayersHandbook.pdf"
+            },
+            {
+              "name": "Adopting & Trading",
+              "description": "Trainers can adopt Pokémon from shelters or trade with other Trainers at Pokémon Centers. Be aware this may affect the Pokémon's Loyalty and Happiness.",
+              "source": "POKEROLE COREBOOK 3.0-001.pdf"
+            }
+          ]
+        }
+      },
+      "chapter_7_training_and_growth": {
+        "title": "Training & Growth",
+        "description": "A Pokémon's journey from a young companion to a powerful partner is forged through shared experience and hard work. This chapter details the system of Training Points (TP), the currency of growth.",
+        "source": "POKEROLE COREBOOK 3.0-001.pdf",
+        "earning_training_points": {
+          "title": "Earning Training Points (TP)",
+          "description": "Pokémon earn TP in two primary ways: through the crucible of battle and through dedicated Training Sessions.",
+          "methods": [
+            {
+              "name": "Training Through Battle",
+              "description": "At the end of a battle, any Pokémon that participated for at least one full round earns TP.",
+              "source": "POKEROLE COREBOOK 3.0-001.pdf",
+              "rewards": [
+                {"circumstance": "Participating in a Battle", "tp_earned": 1},
+                {"circumstance": "Winning a Battle", "tp_earned": "an additional +1 TP"},
+                {"circumstance": "Storyteller Discretion", "tp_earned": "Bonus TP may be awarded for creative strategies or overcoming a significant challenge."}
+              ]
+            },
+            {
+              "name": "Training Sessions",
+              "description": "The most effective way to grow. A session takes about two hours of in-game time.",
+              "source": "POKEROLE COREBOOK 3.0-001.pdf",
+              "steps": [
+                {"step": 1, "name": "Set the Task", "details": "The Trainer describes a training activity and sets its difficulty (1-5+ successes)."},
+                {"step": 2, "name": "Pokémon's Roll", "details": "The Pokémon performs a dice roll (Attribute + Skill) to complete the task. They get two attempts."},
+                {"step": 3, "name": "Trainer's Roll", "details": "If the Pokémon succeeds, the Trainer makes a Training Roll (Social Attribute + Skill). The task's difficulty is added as bonus automatic successes."},
+                {"step": 4, "name": "Earn TP", "details": "The Pokémon earns TP equal to the total number of successes on the Trainer's Training Roll."},
+                {"step": 5, "name": "Recover Will", "details": "The Trainer and the participating Pokémon each recover 2 Will Points."}
+              ]
+            }
+          ]
+        },
+        "spending_training_points": {
+          "title": "Spending Training Points",
+          "description": "TP is the resource used to unlock a Pokémon's full potential. It can be spent at any time outside of battle.",
+          "uses": [
+            {
+              "name": "Rank Up",
+              "description": "Increase a Pokémon's Rank, granting it more points in Attributes and Skills. A Pokémon's Rank cannot exceed its Trainer's.",
+              "source": "POKEROLE COREBOOK 3.0-001.pdf",
+              "cost_table": [
+                {"from_rank": "Starter", "to_rank": "Rookie", "cost": "5 TP"},
+                {"from_rank": "Rookie", "to_rank": "Standard", "cost": "10 TP"},
+                {"from_rank": "Standard", "to_rank": "Advanced", "cost": "15 TP"},
+                {"from_rank": "Advanced", "to_rank": "Expert", "cost": "20 TP"},
+                {"from_rank": "Expert", "to_rank": "Ace", "cost": "25 TP"},
+                {"from_rank": "Ace", "to_rank": "Master", "cost": "30 TP"}
+              ]
+            },
+            {
+              "name": "Evolve",
+              "description": "Trigger your Pokémon's evolution. The cost depends on the species' natural growth rate.",
+              "source": "POKEROLE COREBOOK 3.0-001.pdf",
+              "cost_table": [
+                {"evolution_speed": "Fast", "cost": "10 TP"},
+                {"evolution_speed": "Medium", "cost": "20 TP"},
+                {"evolution_speed": "Slow", "cost": "30 TP"}
+              ]
+            },
+            {
+              "name": "Learn New Moves",
+              "description": "Teach your Pokémon a new move from its move list. The cost increases as the Pokémon evolves.",
+              "source": "POKEROLE COREBOOK 3.0-001.pdf",
+              "cost_table": [
+                {"evolutive_stage": "First Stage", "cost": "5 TP"},
+                {"evolutive_stage": "Second Stage", "cost": "10 TP"},
+                {"evolutive_stage": "Final Stage", "cost": "15 TP"}
+              ]
+            },
+            {
+              "name": "Over-Rank",
+              "description": "Teach your Pokémon a move from a higher Rank than it has currently achieved. Requires a strong bond (minimum combined Happiness & Loyalty of 7).",
+              "source": "POKEROLE COREBOOK 3.0-001.pdf",
+              "cost_table": [
+                {"evolutive_stage": "First Stage", "cost": "10 TP"},
+                {"evolutive_stage": "Second Stage", "cost": "15 TP"},
+                {"evolutive_stage": "Final Stage", "cost": "20 TP"}
+              ]
+            },
+            {
+              "name": "Re-Train",
+              "description": "Rework a Pokémon's build by re-distributing all the Attribute and Skill points they've gained from ranking up.",
+              "source": "POKEROLE COREBOOK 3.0-001.pdf",
+              "cost": "20 TP"
+            }
+          ]
+        },
+        "alternative_training": {
+          "title": "Day-Care Centers",
+          "description": "For Trainers on the go, Day-Care Centers offer a place to leave Pokémon for care and passive training.",
+          "source": "POKEROLE COREBOOK 3.0-001.pdf",
+          "benefits": "A Pokémon left at a Day-Care gains up to 6 TP per day (e.g., roll 1d6) and their Happiness will increase.",
+          "drawback": "This does not strengthen your personal bond. For every 5 days a Pokémon remains at a Day-Care without a visit, its Loyalty will decrease by 1 point."
+        }
+      },
+      "chapter_8_items": {
+        "title": "Items for the Journey",
+        "description": "A comprehensive catalog of the tools, medicines, and artifacts a Trainer can buy, find, and use on their adventure.",
+        "source": ["PTA3PlayersHandbook.pdf", "POKEROLE COREBOOK 3.0-001.pdf"],
+        "trainer_gear": {
+          "title": "Trainer's Gear & Equipment",
+          "trainer_pack_bundles": {
+            "source": "PTA3PlayersHandbook.pdf",
+            "description": "Pre-packaged kits for various lifestyles, often included with a Trainer's Origin. (Prices are for purchasing the kits whole).",
+            "list": [
+              {"name": "Traveler’s Pack", "price": 150, "contents": "Collapsible tent, tarp, sleeping bag, pocket knife, solar flashlight, compass, waterproof matches, water bottle, compression sack."},
+              {"name": "Medical Field Kit", "price": 2150, "contents": "Pain relievers, antihistamines, cold/flu relievers, electrolyte tablets, antiseptic solution and gel, medical tape, slings, bandages, gauze, stitch strips, and various tools like scissors and tweezers."},
+              {"name": "Studious Pack", "price": 80, "contents": "Solar charger, universal adapter, memory stick, binder, folders, notebooks, pencils, pens, and a backpack."},
+              {"name": "Miscreant's Pack", "price": 250, "contents": "Solar charger, universal adapter, memory sticks, lock picks, multi-head screwdriver, crowbar, and other tools for infiltration."},
+              {"name": "Cooking Kit", "price": 850, "contents": "Portable electric stove, cast iron pan, pot with lid, water purifier, cutting board, and various utensils."},
+              {"name": "Fishing Kit", "price": 750, "contents": "Telescoping fishing rod, spare reel lines, assorted hooks, assorted bobbers, sinkers, assorted lures, and a tackle box."},
+              {"name": "Grooming Kit", "price": 150, "contents": "Electronic trimmer, combs, brushes, scissors, clippers, nail file, soap, and shampoo."}
+            ]
+          }
+        },
+        "healing_items": {
+          "title": "Healing Items",
+          "potions": {
+            "source": "PTA3PlayersHandbook.pdf",
+            "list": [
+              {"name": "Potion", "price": 25, "effect": "Heals 10 HP."},
+              {"name": "Super Potion", "price": 250, "effect": "Heals 20 HP."},
+              {"name": "Hyper Potion", "price": 550, "effect": "Heals 30 HP."},
+              {"name": "Max Potion", "price": 850, "effect": "Heals a Pokémon to their Max HP."},
+              {"name": "Full Restore", "price": 1200, "effect": "Heals to Max HP and cures all status ailments."}
+            ]
+          },
+          "status_heals": {
+            "source": ["PTA3PlayersHandbook.pdf", "POKEROLE COREBOOK 3.0-001.pdf"],
+            "description": "Items that cure specific status ailments.",
+            "list": [
+              {"name": "Antidote", "price": 120, "effect": "Cures Poison and Badly Poisoned."},
+              {"name": "Paralyze Heal", "price": 120, "effect": "Cures Paralysis."},
+              {"name": "Awakening", "price": 120, "effect": "Cures Sleep."},
+              {"name": "Burn Heal", "price": 120, "effect": "Cures Burned."},
+              {"name": "Ice Heal", "price": 120, "effect": "Cures Frozen."},
+              {"name": "Full Heal", "price": 520, "effect": "Cures all status ailments."}
+            ]
+          },
+          "berries": {
+            "source": ["PTA3PlayersHandbook.pdf", "POKEROLE COREBOOK 3.0-001.pdf"],
+            "description": "Natural remedies Pokémon can hold and consume automatically as a free action when their condition is met.",
+            "list": [
+              {"name": "Oran Berry", "rarity": "Common", "effect": "When HP drops below half, consume to heal 5 HP."},
+              {"name": "Sitrus Berry", "rarity": "Uncommon", "effect": "When HP drops below half, consume to heal 12 HP."},
+              {"name": "Pecha Berry", "rarity": "Common", "effect": "Consume immediately when Poisoned to be cured."},
+              {"name": "Cheri Berry", "rarity": "Common", "effect": "Consume immediately when Paralyzed to be cured."},
+              {"name": "Chesto Berry", "rarity": "Common", "effect": "Consume immediately when put to Sleep to be cured."},
+              {"name": "Rawst Berry", "rarity": "Common", "effect": "Consume immediately when Burned to be cured."},
+              {"name": "Aspear Berry", "rarity": "Common", "effect": "Consume immediately when Frozen to be cured."},
+              {"name": "Lum Berry", "rarity": "Rare", "effect": "Consume immediately when inflicted with any status ailment to be cured."}
+            ]
+          },
+          "revival_items": {
+            "source": ["PTA3PlayersHandbook.pdf", "POKEROLE COREBOOK 3.0-001.pdf"],
+            "list": [
+              {"name": "Revive", "price": 1350, "effect": "Restores a fainted Pokémon to half of its max HP."},
+              {"name": "Max Revive", "price": "Not for Sale", "effect": "Restores a fainted Pokémon to its full max HP."}
+            ]
+          }
+        },
+        "held_items": {
+          "title": "Held Items",
+          "description": "A Pokémon can hold one item to gain an advantage in battle.",
+          "type_enhancing_items": {
+            "name": "Type-Enhancing Items",
+            "description": "These items add 1 Extra Die to the Damage Pool of moves of the corresponding type.",
+            "source": "POKEROLE COREBOOK 3.0-001.pdf",
+            "list": [
+              {"name": "Charcoal", "type": "Fire"},
+              {"name": "Mystic Water", "type": "Water"},
+              {"name": "Magnet", "type": "Electric"},
+              {"name": "Miracle Seed", "type": "Grass"},
+              {"name": "Black Belt", "type": "Fighting"},
+              {"name": "Sharp Beak", "type": "Flying"},
+              {"name": "Poison Barb", "type": "Poison"},
+              {"name": "Soft Sand", "type": "Ground"},
+              {"name": "Hard Stone", "type": "Rock"},
+              {"name": "Silver Powder", "type": "Bug"},
+              {"name": "Spell Tag", "type": "Ghost"},
+              {"name": "Metal Coat", "type": "Steel"},
+              {"name": "Dragon Fang", "type": "Dragon"},
+              {"name": "Black Glasses", "type": "Dark"},
+              {"name": "Twisted Spoon", "type": "Psychic"},
+              {"name": "Never-Melt Ice", "type": "Ice"},
+              {"name": "Silk Scarf", "type": "Normal"},
+              {"name": "Fairy Wings", "type": "Fairy"}
+            ]
+          },
+          "choice_items": {
+            "name": "Choice Items",
+            "description": "Greatly boost one stat but lock the user into the first move they select for 3 minutes.",
+            "source": ["PTA3PlayersHandbook.pdf", "POKEROLE COREBOOK 3.0-001.pdf"],
+            "list": [
+              {"name": "Choice Band", "effect": "Increases the user's Strength by 2."},
+              {"name": "Choice Specs", "effect": "Increases the user's Special by 2."},
+              {"name": "Choice Scarf", "effect": "Increases the user's Dexterity by 2."}
+            ]
+          }
+        },
+        "evolutionary_items": {
+          "title": "Evolutionary Items",
+          "description": "Rare items used to evolve certain species of Pokémon.",
+          "source": ["PTA3PlayersHandbook.pdf", "POKEROLE COREBOOK 3.0-001.pdf"],
+          "elemental_stones": {
+            "name": "Elemental Stones",
+            "description": "Radioactive stones that induce evolution in specific species when touched.",
+            "list": [
+              {"name": "Fire Stone", "price": 9800},
+              {"name": "Water Stone", "price": 9800},
+              {"name": "Thunder Stone", "price": 9800},
+              {"name": "Leaf Stone", "price": 9800},
+              {"name": "Moon Stone", "price": 9800},
+              {"name": "Sun Stone", "price": 9800},
+              {"name": "Shiny Stone", "price": 9800},
+              {"name": "Dusk Stone", "price": 9800},
+              {"name": "Dawn Stone", "price": 9800},
+              {"name": "Ice Stone", "price": 9800}
+            ]
+          },
+          "trade_evolution_items": {
+            "name": "Trade-Evolution Items",
+            "description": "Items that trigger evolution when the Pokémon holding them is traded.",
+            "list": ["Metal Coat", "King's Rock", "Protector", "Electirizer", "Magmarizer", "Deep Sea Tooth", "Deep Sea Scale", "Dragon Scale"]
+          }
+        }
+      }
+    }
+  }
+}

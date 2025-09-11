@@ -1,0 +1,436 @@
+{
+  "game_data_compendium": {
+    "chapter_12_abilitydex": {
+      "part_3": [
+        {
+          "name": "Rain Dish",
+          "effect": "The Pokémon gradually regains HP in rain."
+        },
+        {
+          "name": "Rattled",
+          "effect": "Raises the Speed stat if the Pokémon is hit by a Bug-, Dark-, or Ghost-type move."
+        },
+        {
+          "name": "Receiver",
+          "effect": "The Pokémon copies the Ability of a defeated ally."
+        },
+        {
+          "name": "Reckless",
+          "effect": "Powers up moves that have recoil damage."
+        },
+        {
+          "name": "Refrigerate",
+          "effect": "Normal-type moves become Ice-type moves and get a power boost."
+        },
+        {
+          "name": "Regenerator",
+          "effect": "Restores a little HP when the Pokémon switches out."
+        },
+        {
+          "name": "Ripen",
+          "effect": "Ripens Berries and doubles their effect."
+        },
+        {
+          "name": "Rivalry",
+          "effect": "Raises the Pokémon's Attack stat if it's battling a Pokémon of the same gender."
+        },
+        {
+          "name": "RKS System",
+          "effect": "Changes the Pokémon's type to match the memory disc it holds."
+        },
+        {
+          "name": "Rock Head",
+          "effect": "Protects the Pokémon from recoil damage."
+        },
+        {
+          "name": "Rocky Payload",
+          "effect": "Powers up Rock-type moves."
+        },
+        {
+          "name": "Rough Skin",
+          "effect": "Inflicts damage on the attacker upon contact."
+        },
+        {
+          "name": "Run Away",
+          "effect": "Enables a sure getaway from wild Pokémon."
+        },
+        {
+          "name": "Sand Force",
+          "effect": "Boosts the power of Rock-, Ground-, and Steel-type moves in a sandstorm."
+        },
+        {
+          "name": "Sand Rush",
+          "effect": "Boosts the Pokémon's Speed stat in a sandstorm."
+        },
+        {
+          "name": "Sand Spit",
+          "effect": "The Pokémon creates a sandstorm when it's hit by an attack."
+        },
+        {
+          "name": "Sand Stream",
+          "effect": "The Pokémon summons a sandstorm when it enters a battle."
+        },
+        {
+          "name": "Sand Veil",
+          "effect": "Boosts the Pokémon's evasiveness in a sandstorm."
+        },
+        {
+          "name": "Sap Sipper",
+          "effect": "Boosts the Attack stat if hit by a Grass-type move, instead of taking damage."
+        },
+        {
+          "name": "Schooling",
+          "effect": "When it has a lot of HP, the Pokémon forms a powerful school. It stops schooling when its HP is low."
+        },
+        {
+          "name": "Scrappy",
+          "effect": "Enables the Pokémon to hit Ghost-type Pokémon with Normal- and Fighting-type moves."
+        },
+        {
+          "name": "Screen Cleaner",
+          "effect": "When the Pokémon enters a battle, the effects of Light Screen, Reflect, and Aurora Veil are nullified for both opposing and ally Pokémon."
+        },
+        {
+          "name": "Seed Sower",
+          "effect": "Turns the ground into Grassy Terrain when the Pokémon is hit by an attack."
+        },
+        {
+          "name": "Serene Grace",
+          "effect": "Boosts the likelihood of added effects appearing."
+        },
+        {
+          "name": "Shadow Shield",
+          "effect": "Reduces the amount of damage the Pokémon takes while its HP is full."
+        },
+        {
+          "name": "Shadow Tag",
+          "effect": "Prevents opposing Pokémon from fleeing."
+        },
+        {
+          "name": "Sharpness",
+          "effect": "Powers up slicing moves."
+        },
+        {
+          "name": "Shed Skin",
+          "effect": "The Pokémon may heal its own status conditions by shedding its skin."
+        },
+        {
+          "name": "Sheer Force",
+          "effect": "Removes additional effects to increase the power of moves."
+        },
+        {
+          "name": "Shell Armor",
+          "effect": "Protects the Pokémon from critical hits."
+        },
+        {
+          "name": "Shield Dust",
+          "effect": "Blocks the added effects of attacks taken."
+        },
+        {
+          "name": "Shields Down",
+          "effect": "When its HP becomes half or less, the Pokémon's shell breaks and it becomes aggressive."
+        },
+        {
+          "name": "Simple",
+          "effect": "The Pokémon is prone to simple thinking and doubles its stat changes."
+        },
+        {
+          "name": "Skill Link",
+          "effect": "Maximizes the number of times multi-strike moves hit."
+        },
+        {
+          "name": "Slow Start",
+          "effect": "For five turns, the Pokémon's Attack and Speed stats are halved."
+        },
+        {
+          "name": "Slush Rush",
+          "effect": "Boosts the Pokémon's Speed stat in a hailstorm."
+        },
+        {
+          "name": "Sniper",
+          "effect": "Powers up moves if they become critical hits."
+        },
+        {
+          "name": "Snow Cloak",
+          "effect": "Boosts evasiveness in a hailstorm."
+        },
+        {
+          "name": "Snow Warning",
+          "effect": "The Pokémon summons a hailstorm when it enters a battle."
+        },
+        {
+          "name": "Solar Power",
+          "effect": "Boosts the Sp. Atk stat in harsh sunlight, but HP decreases every turn."
+        },
+        {
+          "name": "Solid Rock",
+          "effect": "Reduces the power of super-effective attacks taken."
+        },
+        {
+          "name": "Soul-Heart",
+          "effect": "Boosts the Sp. Atk stat of the Pokémon when another Pokémon faints."
+        },
+        {
+          "name": "Soundproof",
+          "effect": "Gives full immunity to all sound-based moves."
+        },
+        {
+          "name": "Speed Boost",
+          "effect": "Its Speed stat is boosted every turn."
+        },
+        {
+          "name": "Stall",
+          "effect": "The Pokémon moves after all other Pokémon do."
+        },
+        {
+          "name": "Stamina",
+          "effect": "Boosts the Defense stat when hit by an attack."
+        },
+        {
+          "name": "Stance Change",
+          "effect": "The Pokémon changes its form to Blade Forme when it uses an attack move and changes to Shield Forme when it uses King's Shield."
+        },
+        {
+          "name": "Static",
+          "effect": "Contact with the Pokémon may cause paralysis."
+        },
+        {
+          "name": "Steadfast",
+          "effect": "Boosts the Speed stat each time the Pokémon flinches."
+        },
+        {
+          "name": "Steam Engine",
+          "effect": "Boosts the Pokémon's Speed stat drastically when hit by a Fire- or Water-type move."
+        },
+        {
+          "name": "Steelworker",
+          "effect": "Powers up Steel-type moves."
+        },
+        {
+          "name": "Steely Spirit",
+          "effect": "Powers up the Steel-type moves of the Pokémon and its allies."
+        },
+        {
+          "name": "Stench",
+          "effect": "By releasing a stench when attacking, this Pokémon may cause the target to flinch."
+        },
+        {
+          "name": "Sticky Hold",
+          "effect": "Protects the Pokémon from item theft."
+        },
+        {
+          "name": "Storm Drain",
+          "effect": "Draws in all Water-type moves to boost its own Sp. Atk stat."
+        },
+        {
+          "name": "Strong Jaw",
+          "effect": "The Pokémon's strong jaw boosts the power of its biting moves."
+        },
+        {
+          "name": "Sturdy",
+          "effect": "It cannot be knocked out with one hit. One-hit KO moves cannot knock it out, either."
+        },
+        {
+          "name": "Suction Cups",
+          "effect": "Negates moves that force switching out."
+        },
+        {
+          "name": "Super Luck",
+          "effect": "Heightens the critical-hit ratios of moves."
+        },
+        {
+          "name": "Supreme Overlord",
+          "effect": "When the Pokémon enters a battle, its Attack and Special Attack stats are slightly boosted for each of the allies in its party that have already been defeated."
+        },
+        {
+          "name": "Surge Surfer",
+          "effect": "Doubles the Pokémon's Speed stat on Electric Terrain."
+        },
+        {
+          "name": "Swarm",
+          "effect": "Powers up Bug-type moves when the Pokémon's HP is low."
+        },
+        {
+          "name": "Sweet Veil",
+          "effect": "Prevents the Pokémon and its allies from falling asleep."
+        },
+        {
+          "name": "Swift Swim",
+          "effect": "Boosts the Pokémon's Speed stat in rain."
+        },
+        {
+          "name": "Sword of Ruin",
+          "effect": "The power of the Pokémon’s ruinous sword lowers the Defense stats of all Pokémon except itself."
+        },
+        {
+          "name": "Symbiosis",
+          "effect": "The Pokémon can pass an item to an ally."
+        },
+        {
+          "name": "Synchronize",
+          "effect": "Passes on a burn, poison, or paralysis to the foe."
+        },
+        {
+          "name": "Tablets of Ruin",
+          "effect": "The power of the Pokémon’s ruinous tablets lowers the Attack stats of all Pokémon except itself."
+        },
+        {
+          "name": "Tangled Feet",
+          "effect": "Raises evasiveness if the Pokémon is confused."
+        },
+        {
+          "name": "Tangling Hair",
+          "effect": "Contact with the Pokémon lowers the attacker's Speed stat."
+        },
+        {
+          "name": "Technician",
+          "effect": "Powers up the Pokémon's weaker moves."
+        },
+        {
+          "name": "Telepathy",
+          "effect": "Anticipates an ally's attack and dodges it."
+        },
+        {
+          "name": "Teravolt",
+          "effect": "Moves can be used on the target regardless of its Abilities."
+        },
+        {
+          "name": "Thermal Exchange",
+          "effect": "Boosts the Attack stat when the Pokémon is hit by a Fire-type move. The Pokémon also cannot be burned."
+        },
+        {
+          "name": "Thick Fat",
+          "effect": "Ups resistance to Fire- and Ice-type moves."
+        },
+        {
+          "name": "Tinted Lens",
+          "effect": "Powers up 'not very effective' moves."
+        },
+        {
+          "name": "Torrent",
+          "effect": "Powers up Water-type moves when the Pokémon's HP is low."
+        },
+        {
+          "name": "Tough Claws",
+          "effect": "Powers up moves that make direct contact."
+        },
+        {
+          "name": "Toxic Boost",
+          "effect": "Powers up physical attacks when the Pokémon is poisoned."
+        },
+        {
+          "name": "Toxic Debris",
+          "effect": "Scatters poison spikes at the feet of the opposing team when the Pokémon is hit by a physical move."
+        },
+        {
+          "name": "Trace",
+          "effect": "The Pokémon copies a foe's Ability."
+        },
+        {
+          "name": "Transistor",
+          "effect": "Powers up Electric-type moves."
+        },
+        {
+          "name": "Triage",
+          "effect": "Gives priority to a healing move."
+        },
+        {
+          "name": "Truant",
+          "effect": "The Pokémon can't use a move if it had one on the previous turn."
+        },
+        {
+          "name": "Turboblaze",
+          "effect": "Moves can be used on the target regardless of its Abilities."
+        },
+        {
+          "name": "Unaware",
+          "effect": "Ignores the opposing Pokémon's stat changes when attacking or being attacked."
+        },
+        {
+          "name": "Unburden",
+          "effect": "Boosts the Speed stat if the Pokémon's held item is used or lost."
+        },
+        {
+          "name": "Unnerve",
+          "effect": "Unnerves opposing Pokémon and makes them unable to eat Berries."
+        },
+        {
+          "name": "Unseen Fist",
+          "effect": "If the Pokémon uses a move that makes direct contact, it can attack the target even if the target is using a move like Protect or Detect."
+        },
+        {
+          "name": "Vessel of Ruin",
+          "effect": "The power of the Pokémon’s ruinous vessel lowers the Special Attack stats of all Pokémon except itself."
+        },
+        {
+          "name": "Victory Star",
+          "effect": "Boosts the accuracy of its moves and its allies' moves."
+        },
+        {
+          "name": "Vital Spirit",
+          "effect": "Prevents the Pokémon from falling asleep."
+        },
+        {
+          "name": "Volt Absorb",
+          "effect": "Restores HP if hit by an Electric-type move, instead of taking damage."
+        },
+        {
+          "name": "Wandering Spirit",
+          "effect": "The Pokémon exchanges Abilities with a Pokémon that hits it with a move that makes direct contact."
+        },
+        {
+          "name": "Water Absorb",
+          "effect": "Restores HP if hit by a Water-type move, instead of taking damage."
+        },
+        {
+          "name": "Water Bubble",
+          "effect": "Lowers the power of Fire-type moves done to the Pokémon and prevents the Pokémon from being burned."
+        },
+        {
+          "name": "Water Compaction",
+          "effect": "Boosts the Pokémon's Defense stat sharply when hit by a Water-type move."
+        },
+        {
+          "name": "Water Veil",
+          "effect": "Prevents the Pokémon from getting a burn."
+        },
+        {
+          "name": "Weak Armor",
+          "effect": "Physical attacks to the Pokémon lower its Defense stat but sharply raise its Speed stat."
+        },
+        {
+          "name": "Well-Baked Body",
+          "effect": "The Pokémon takes no damage when hit by Fire-type moves. Instead, its Defense stat is sharply boosted."
+        },
+        {
+          "name": "White Smoke",
+          "effect": "Prevents other Pokémon from lowering its stats."
+        },
+        {
+          "name": "Wimp Out",
+          "effect": "The Pokémon cowardly switches out of battle when its HP drops below half."
+        },
+        {
+          "name": "Wind Power",
+          "effect": "The Pokémon becomes charged when it is hit by a wind move, boosting the power of the next Electric-type move it uses."
+        },
+        {
+          "name": "Wind Rider",
+          "effect": "Boosts the Pokémon’s Attack stat if Tailwind is in effect or if the Pokémon is hit by a wind move. The Pokémon also takes no damage from wind moves."
+        },
+        {
+          "name": "Wonder Guard",
+          "effect": "Its mysterious power only lets super-effective moves hit the Pokémon."
+        },
+        {
+          "name": "Wonder Skin",
+          "effect": "Makes status moves more likely to miss."
+        },
+        {
+          "name": "Zen Mode",
+          "effect": "Changes the Pokémon's form when its HP drops to half or less."
+        }
+      ]
+    }
+  }
+}

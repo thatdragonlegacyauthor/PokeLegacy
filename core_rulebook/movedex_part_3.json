@@ -1,0 +1,959 @@
+{
+  "game_data_compendium": {
+    "chapter_11_movedex": {
+      "ghost": [
+        {
+          "name": "Astonish",
+          "type": "Ghost",
+          "accuracy": "Strength + Brawl",
+          "damage": "Strength + 2",
+          "effect": "Roll 1d6. On a 6, the target Flinches."
+        },
+        {
+          "name": "Astral Barrage",
+          "type": "Ghost",
+          "accuracy": "Special + Channel",
+          "damage": "Special + 6",
+          "effect": "Hits all adjacent opponents."
+        },
+        {
+          "name": "Confuse Ray",
+          "type": "Ghost",
+          "accuracy": "Special + Channel",
+          "damage": "None",
+          "effect": "Confuses the target."
+        },
+        {
+          "name": "Curse",
+          "type": "Ghost",
+          "accuracy": "Automatic",
+          "damage": "None",
+          "effect": "If the user is a Ghost-type, it sacrifices half of its max HP to place a curse on the target. The cursed Pokémon loses 1/4 of its max HP at the end of each round. If not a Ghost-type, it lowers the user's Dexterity by 1 and raises its Strength and Defense by 1."
+        },
+        {
+          "name": "Destiny Bond",
+          "type": "Ghost",
+          "accuracy": "Automatic",
+          "damage": "None",
+          "effect": "If the user faints this round, the Pokémon that knocked it out also faints."
+        },
+        {
+          "name": "Grudge",
+          "type": "Ghost",
+          "accuracy": "Automatic",
+          "damage": "None",
+          "effect": "If the user faints this round, the move that knocked it out has its PP reduced to 0."
+        },
+        {
+          "name": "Hex",
+          "type": "Ghost",
+          "accuracy": "Special + Channel",
+          "damage": "Special + 4",
+          "effect": "If the target has a status ailment, this move's damage is doubled."
+        },
+        {
+          "name": "Infernal Parade",
+          "type": "Ghost",
+          "accuracy": "Special + Channel",
+          "damage": "Special + 4",
+          "effect": "If the target has a status ailment, this move's damage is doubled. Roll 1d6. On a 6, the target is Burned."
+        },
+        {
+          "name": "Lick",
+          "type": "Ghost",
+          "accuracy": "Strength + Brawl",
+          "damage": "Strength + 2",
+          "effect": "Roll 1d6. On a 6, the target is Paralyzed."
+        },
+        {
+          "name": "Menacing Moonraze Maelstrom",
+          "type": "Ghost",
+          "accuracy": "Special + Channel",
+          "damage": "Special + 10",
+          "effect": "Z-Move. Ignores the target's Ability."
+        },
+        {
+          "name": "Moongeist Beam",
+          "type": "Ghost",
+          "accuracy": "Special + Channel",
+          "damage": "Special + 6",
+          "effect": "Ignores the target's Ability."
+        },
+        {
+          "name": "Never-Ending Nightmare",
+          "type": "Ghost",
+          "accuracy": "Varies",
+          "damage": "Varies",
+          "effect": "Z-Move. Base power and category depend on the original move."
+        },
+        {
+          "name": "Night Shade",
+          "type": "Ghost",
+          "accuracy": "Special + Channel",
+          "damage": "Fixed",
+          "effect": "This move always deals damage equal to the user's level (or Rank * 10)."
+        },
+        {
+          "name": "Nightmare",
+          "type": "Ghost",
+          "accuracy": "Special + Channel",
+          "damage": "None",
+          "effect": "A sleeping target loses 1/4 of its max HP at the end of each round."
+        },
+        {
+          "name": "Ominous Wind",
+          "type": "Ghost",
+          "accuracy": "Special + Channel",
+          "damage": "Special + 4",
+          "effect": "Roll 1d6. On a 6, all of the user's stats are raised by 1."
+        },
+        {
+          "name": "Phantom Force",
+          "type": "Ghost",
+          "accuracy": "Strength + Brawl",
+          "damage": "Strength + 5",
+          "effect": "The user vanishes on the first turn, becoming invulnerable. On the second turn, it attacks. This move hits even if the target is using Protect or Detect."
+        },
+        {
+          "name": "Poltergeist",
+          "type": "Ghost",
+          "accuracy": "Strength + Brawl",
+          "damage": "Strength + 6",
+          "effect": "This move fails if the target is not holding an item."
+        },
+        {
+          "name": "Rage Fist",
+          "type": "Ghost",
+          "accuracy": "Strength + Brawl",
+          "damage": "Strength + 3",
+          "effect": "This move's damage increases by +1 for each time the user has been hit in this battle."
+        },
+        {
+          "name": "Shadow Ball",
+          "type": "Ghost",
+          "accuracy": "Special + Channel",
+          "damage": "Special + 5",
+          "effect": "Roll 1d6. On a 6, the target's Special Defense is lowered by 1."
+        },
+        {
+          "name": "Shadow Bone",
+          "type": "Ghost",
+          "accuracy": "Strength + Brawl",
+          "damage": "Strength + 5",
+          "effect": "Roll 1d6. On a 6, the target's Defense is lowered by 1."
+        },
+        {
+          "name": "Shadow Claw",
+          "type": "Ghost",
+          "accuracy": "Strength + Brawl",
+          "damage": "Strength + 4",
+          "effect": "High Critical Hit Ratio."
+        },
+        {
+          "name": "Shadow Force",
+          "type": "Ghost",
+          "accuracy": "Strength + Brawl",
+          "damage": "Strength + 6",
+          "effect": "The user vanishes on the first turn, becoming invulnerable. On the second turn, it attacks. This move hits even if the target is using Protect or Detect."
+        },
+        {
+          "name": "Shadow Punch",
+          "type": "Ghost",
+          "accuracy": "Automatic",
+          "damage": "Strength + 4",
+          "effect": "This move never misses."
+        },
+        {
+          "name": "Shadow Sneak",
+          "type": "Ghost",
+          "accuracy": "Strength + Brawl",
+          "damage": "Strength + 3",
+          "effect": "Priority."
+        },
+        {
+          "name": "Sinister Arrow Raid",
+          "type": "Ghost",
+          "accuracy": "Strength + Brawl",
+          "damage": "Strength + 9",
+          "effect": "Z-Move."
+        },
+        {
+          "name": "Spectral Thief",
+          "type": "Ghost",
+          "accuracy": "Strength + Brawl",
+          "damage": "Strength + 5",
+          "effect": "The user steals the target's stat boosts before attacking."
+        },
+        {
+          "name": "Spirit Shackle",
+          "type": "Ghost",
+          "accuracy": "Special + Channel",
+          "damage": "Special + 5",
+          "effect": "The target is trapped and cannot switch out."
+        },
+        {
+          "name": "Spite",
+          "type": "Ghost",
+          "accuracy": "Automatic",
+          "damage": "None",
+          "effect": "The last move the target used has its PP reduced by 4."
+        },
+        {
+          "name": "Trick-or-Treat",
+          "type": "Ghost",
+          "accuracy": "Automatic",
+          "damage": "None",
+          "effect": "Adds the Ghost type to the target's current typing."
+        }
+      ],
+      "grass": [
+        {
+          "name": "Absorb",
+          "type": "Grass",
+          "accuracy": "Special + Channel",
+          "damage": "Special + 2",
+          "effect": "The user recovers HP equal to half the damage dealt."
+        },
+        {
+          "name": "Apple Acid",
+          "type": "Grass",
+          "accuracy": "Special + Channel",
+          "damage": "Special + 5",
+          "effect": "Lowers the target's Special Defense by 1."
+        },
+        {
+          "name": "Aromatherapy",
+          "type": "Grass",
+          "accuracy": "Automatic",
+          "damage": "None",
+          "effect": "Cures all status ailments on the user's team."
+        },
+        {
+          "name": "Branch Poke",
+          "type": "Grass",
+          "accuracy": "Strength + Brawl",
+          "damage": "Strength + 3",
+          "effect": "None."
+        },
+        {
+          "name": "Bullet Seed",
+          "type": "Grass",
+          "accuracy": "Strength + Brawl",
+          "damage": "Strength + 2",
+          "effect": "This move hits 2 to 5 times."
+        },
+        {
+          "name": "Chloroblast",
+          "type": "Grass",
+          "accuracy": "Special + Channel",
+          "damage": "Special + 8",
+          "effect": "The user takes recoil damage equal to half of its max HP."
+        },
+        {
+          "name": "Cotton Guard",
+          "type": "Grass",
+          "accuracy": "Automatic",
+          "damage": "None",
+          "effect": "The user's Defense is raised by 3."
+        },
+        {
+          "name": "Cotton Spore",
+          "type": "Grass",
+          "accuracy": "Automatic",
+          "damage": "None",
+          "effect": "Lowers the target's Dexterity by 2."
+        },
+        {
+          "name": "Drum Beating",
+          "type": "Grass",
+          "accuracy": "Strength + Brawl",
+          "damage": "Strength + 5",
+          "effect": "Lowers the target's Dexterity by 1."
+        },
+        {
+          "name": "Energy Ball",
+          "type": "Grass",
+          "accuracy": "Special + Channel",
+          "damage": "Special + 5",
+          "effect": "Roll 1d6. On a 6, the target's Special Defense is lowered by 1."
+        },
+        {
+          "name": "Forest's Curse",
+          "type": "Grass",
+          "accuracy": "Automatic",
+          "damage": "None",
+          "effect": "Adds the Grass type to the target's current typing."
+        },
+        {
+          "name": "Frenzy Plant",
+          "type": "Grass",
+          "accuracy": "Special + Channel",
+          "damage": "Special + 8",
+          "effect": "The user must recharge on the next turn."
+        },
+        {
+          "name": "Giga Drain",
+          "type": "Grass",
+          "accuracy": "Special + Channel",
+          "damage": "Special + 4",
+          "effect": "The user recovers HP equal to half the damage dealt."
+        },
+        {
+          "name": "Grass Knot",
+          "type": "Grass",
+          "accuracy": "Special + Channel",
+          "damage": "Special + X",
+          "effect": "Damage increases based on the target's weight."
+        },
+        {
+          "name": "Grass Pledge",
+          "type": "Grass",
+          "accuracy": "Special + Channel",
+          "damage": "Special + 5",
+          "effect": "If used with Fire Pledge, creates a sea of fire. If used with Water Pledge, creates a swamp."
+        },
+        {
+          "name": "Grass Whistle",
+          "type": "Grass",
+          "accuracy": "Special + Channel",
+          "damage": "None",
+          "effect": "Puts the target to sleep. Low Accuracy."
+        },
+        {
+          "name": "Grassy Glide",
+          "type": "Grass",
+          "accuracy": "Strength + Brawl",
+          "damage": "Strength + 4",
+          "effect": "Priority if used on Grassy Terrain."
+        },
+        {
+          "name": "Grassy Terrain",
+          "type": "Grass",
+          "accuracy": "Automatic",
+          "damage": "None",
+          "effect": "Creates a Grassy Terrain for 5 rounds. Pokémon on the ground are healed each turn and their Grass-type moves are powered up."
+        },
+        {
+          "name": "Grav Apple",
+          "type": "Grass",
+          "accuracy": "Strength + Brawl",
+          "damage": "Strength + 5",
+          "effect": "Lowers the target's Defense by 1."
+        },
+        {
+          "name": "Horn Leech",
+          "type": "Grass",
+          "accuracy": "Strength + Brawl",
+          "damage": "Strength + 4",
+          "effect": "The user recovers HP equal to half the damage dealt."
+        },
+        {
+          "name": "Ingrain",
+          "type": "Grass",
+          "accuracy": "Automatic",
+          "damage": "None",
+          "effect": "The user restores 1/16 of its max HP each turn, but cannot switch out."
+        },
+        {
+          "name": "Jungle Healing",
+          "type": "Grass",
+          "accuracy": "Automatic",
+          "damage": "None",
+          "effect": "The user and its allies recover 1/4 of their max HP and are cured of status ailments."
+        },
+        {
+          "name": "Leaf Blade",
+          "type": "Grass",
+          "accuracy": "Strength + Brawl",
+          "damage": "Strength + 5",
+          "effect": "High Critical Hit Ratio."
+        },
+        {
+          "name": "Leaf Storm",
+          "type": "Grass",
+          "accuracy": "Special + Channel",
+          "damage": "Special + 7",
+          "effect": "Lowers the user's Special by 2 after use."
+        },
+        {
+          "name": "Leaf Tornado",
+          "type": "Grass",
+          "accuracy": "Special + Channel",
+          "damage": "Special + 4",
+          "effect": "Roll 1d6. On a 5 or 6, the target's Accuracy is lowered by 1."
+        },
+        {
+          "name": "Leafage",
+          "type": "Grass",
+          "accuracy": "Special + Channel",
+          "damage": "Special + 3",
+          "effect": "None."
+        },
+        {
+          "name": "Leech Seed",
+          "type": "Grass",
+          "accuracy": "Automatic",
+          "damage": "None",
+          "effect": "The target loses 1/8 of its max HP each turn, and the user recovers the same amount."
+        },
+        {
+          "name": "Magical Leaf",
+          "type": "Grass",
+          "accuracy": "Automatic",
+          "damage": "Special + 4",
+          "effect": "This move never misses."
+        },
+        {
+          "name": "Mega Drain",
+          "type": "Grass",
+          "accuracy": "Special + Channel",
+          "damage": "Special + 3",
+          "effect": "The user recovers HP equal to half the damage dealt."
+        },
+        {
+          "name": "Needle Arm",
+          "type": "Grass",
+          "accuracy": "Strength + Brawl",
+          "damage": "Strength + 4",
+          "effect": "Roll 1d6. On a 6, the target Flinches."
+        },
+        {
+          "name": "Petal Blizzard",
+          "type": "Grass",
+          "accuracy": "Strength + Brawl",
+          "damage": "Strength + 5",
+          "effect": "Hits all adjacent Pokémon."
+        },
+        {
+          "name": "Petal Dance",
+          "type": "Grass",
+          "accuracy": "Special + Channel",
+          "damage": "Special + 6",
+          "effect": "The user attacks for 2-3 rounds and becomes Confused afterward."
+        },
+        {
+          "name": "Power Whip",
+          "type": "Grass",
+          "accuracy": "Strength + Brawl",
+          "damage": "Strength + 6",
+          "effect": "Low Accuracy."
+        },
+        {
+          "name": "Rage Powder",
+          "type": "Grass",
+          "accuracy": "Automatic",
+          "damage": "None",
+          "effect": "Priority. All incoming attacks are redirected to the user for this round."
+        },
+        {
+          "name": "Razor Leaf",
+          "type": "Grass",
+          "accuracy": "Strength + Brawl",
+          "damage": "Strength + 3",
+          "effect": "High Critical Hit Ratio."
+        },
+        {
+          "name": "Seed Bomb",
+          "type": "Grass",
+          "accuracy": "Strength + Brawl",
+          "damage": "Strength + 5",
+          "effect": "None."
+        },
+        {
+          "name": "Seed Flare",
+          "type": "Grass",
+          "accuracy": "Special + Channel",
+          "damage": "Special + 6",
+          "effect": "Roll 1d6. On a 5 or 6, the target's Special Defense is lowered by 2."
+        },
+        {
+          "name": "Sleep Powder",
+          "type": "Grass",
+          "accuracy": "Special + Channel",
+          "damage": "None",
+          "effect": "Puts the target to sleep. Low Accuracy."
+        },
+        {
+          "name": "Snap Trap",
+          "type": "Grass",
+          "accuracy": "Strength + Brawl",
+          "damage": "Strength + 2",
+          "effect": "The target is trapped and takes 1d6 damage at the end of each of its turns for 3 rounds."
+        },
+        {
+          "name": "Solar Beam",
+          "type": "Grass",
+          "accuracy": "Special + Channel",
+          "damage": "Special + 6",
+          "effect": "The user charges for one turn, then attacks. No charge time in Sunny Weather."
+        },
+        {
+          "name": "Solar Blade",
+          "type": "Grass",
+          "accuracy": "Strength + Brawl",
+          "damage": "Strength + 6",
+          "effect": "The user charges for one turn, then attacks. No charge time in Sunny Weather."
+        },
+        {
+          "name": "Spiky Shield",
+          "type": "Grass",
+          "accuracy": "Automatic",
+          "damage": "None",
+          "effect": "Priority. Protects the user from all attacks. If a contact move is blocked, the attacker takes 1/8 of its max HP in damage."
+        },
+        {
+          "name": "Spore",
+          "type": "Grass",
+          "accuracy": "Special + Channel",
+          "damage": "None",
+          "effect": "Puts the target to sleep."
+        },
+        {
+          "name": "Strength Sap",
+          "type": "Grass",
+          "accuracy": "Special + Channel",
+          "damage": "None",
+          "effect": "Lowers the target's Strength by 1. The user recovers HP equal to the target's Strength stat."
+        },
+        {
+          "name": "Stun Spore",
+          "type": "Grass",
+          "accuracy": "Special + Channel",
+          "damage": "None",
+          "effect": "The target is Paralyzed. Low Accuracy."
+        },
+        {
+          "name": "Synthesis",
+          "type": "Grass",
+          "accuracy": "Automatic",
+          "damage": "None",
+          "effect": "The user recovers HP. Amount depends on the weather."
+        },
+        {
+          "name": "Thousand Arrows",
+          "type": "Ground",
+          "accuracy": "Strength + Brawl",
+          "damage": "Strength + 5",
+          "effect": "Hits all adjacent opponents. Can hit Flying-type Pokémon and grounds them."
+        },
+        {
+          "name": "Thousand Waves",
+          "type": "Ground",
+          "accuracy": "Strength + Brawl",
+          "damage": "Strength + 5",
+          "effect": "Hits all adjacent opponents. Targets are trapped and cannot switch out."
+        },
+        {
+          "name": "Trop Kick",
+          "type": "Grass",
+          "accuracy": "Strength + Brawl",
+          "damage": "Strength + 4",
+          "effect": "Lowers the target's Strength by 1."
+        },
+        {
+          "name": "Vine Whip",
+          "type": "Grass",
+          "accuracy": "Strength + Brawl",
+          "damage": "Strength + 3",
+          "effect": "None."
+        },
+        {
+          "name": "Wood Hammer",
+          "type": "Grass",
+          "accuracy": "Strength + Brawl",
+          "damage": "Strength + 6",
+          "effect": "The user takes recoil damage equal to 1/3 of the damage dealt."
+        }
+      ],
+      "ground": [
+        {
+          "name": "Bone Club",
+          "type": "Ground",
+          "accuracy": "Strength + Brawl",
+          "damage": "Strength + 4",
+          "effect": "Roll 1d6. On a 6, the target Flinches."
+        },
+        {
+          "name": "Bone Rush",
+          "type": "Ground",
+          "accuracy": "Strength + Brawl",
+          "damage": "Strength + 2",
+          "effect": "This move hits 2 to 5 times."
+        },
+        {
+          "name": "Bonemerang",
+          "type": "Ground",
+          "accuracy": "Strength + Brawl",
+          "damage": "Strength + 3",
+          "effect": "This move hits twice."
+        },
+        {
+          "name": "Bulldoze",
+          "type": "Ground",
+          "accuracy": "Strength + Brawl",
+          "damage": "Strength + 4",
+          "effect": "Hits all adjacent Pokémon. Lowers their Dexterity by 1."
+        },
+        {
+          "name": "Dig",
+          "type": "Ground",
+          "accuracy": "Strength + Brawl",
+          "damage": "Strength + 5",
+          "effect": "The user digs underground on the first turn, becoming invulnerable. On the second turn, it attacks."
+        },
+        {
+          "name": "Drill Run",
+          "type": "Ground",
+          "accuracy": "Strength + Brawl",
+          "damage": "Strength + 5",
+          "effect": "High Critical Hit Ratio."
+        },
+        {
+          "name": "Earth Power",
+          "type": "Ground",
+          "accuracy": "Special + Channel",
+          "damage": "Special + 5",
+          "effect": "Roll 1d6. On a 6, the target's Special Defense is lowered by 1."
+        },
+        {
+          "name": "Earthquake",
+          "type": "Ground",
+          "accuracy": "Strength + Brawl",
+          "damage": "Strength + 6",
+          "effect": "Hits all adjacent Pokémon. Deals double damage to Pokémon underground."
+        },
+        {
+          "name": "Fissure",
+          "type": "Ground",
+          "accuracy": "Strength + Brawl",
+          "damage": "OHKO",
+          "effect": "One-Hit KO move. Very Low Accuracy."
+        },
+        {
+          "name": "Headlong Rush",
+          "type": "Ground",
+          "accuracy": "Strength + Brawl",
+          "damage": "Strength + 6",
+          "effect": "Lowers the user's Defense and Special Defense by 1."
+        },
+        {
+          "name": "High Horsepower",
+          "type": "Ground",
+          "accuracy": "Strength + Brawl",
+          "damage": "Strength + 5",
+          "effect": "None."
+        },
+        {
+          "name": "Land's Wrath",
+          "type": "Ground",
+          "accuracy": "Strength + Brawl",
+          "damage": "Strength + 5",
+          "effect": "Hits all adjacent opponents."
+        },
+        {
+          "name": "Magnitude",
+          "type": "Ground",
+          "accuracy": "Strength + Brawl",
+          "damage": "Strength + X",
+          "effect": "Roll 1d10 to determine the magnitude (and damage) of the attack."
+        },
+        {
+          "name": "Mud Bomb",
+          "type": "Ground",
+          "accuracy": "Special + Channel",
+          "damage": "Special + 4",
+          "effect": "Roll 1d6. On a 6, the target's Accuracy is lowered by 1."
+        },
+        {
+          "name": "Mud Shot",
+          "type": "Ground",
+          "accuracy": "Special + Channel",
+          "damage": "Special + 3",
+          "effect": "Lowers the target's Dexterity by 1."
+        },
+        {
+          "name": "Mud-Slap",
+          "type": "Ground",
+          "accuracy": "Special + Channel",
+          "damage": "Special + 2",
+          "effect": "Lowers the target's Accuracy by 1."
+        },
+        {
+          "name": "Muddy Water",
+          "type": "Ground",
+          "accuracy": "Special + Channel",
+          "damage": "Special + 5",
+          "effect": "Hits all adjacent opponents. Roll 1d6. On a 6, lowers their Accuracy by 1."
+        },
+        {
+          "name": "Precipice Blades",
+          "type": "Ground",
+          "accuracy": "Strength + Brawl",
+          "damage": "Strength + 6",
+          "effect": "Hits all adjacent opponents."
+        },
+        {
+          "name": "Rototiller",
+          "type": "Ground",
+          "accuracy": "Automatic",
+          "damage": "None",
+          "effect": "Raises the Strength and Special of all Grass-type Pokémon on the field by 1."
+        },
+        {
+          "name": "Sand Attack",
+          "type": "Ground",
+          "accuracy": "Automatic",
+          "damage": "None",
+          "effect": "Lowers the target's Accuracy by 1."
+        },
+        {
+          "name": "Sand Tomb",
+          "type": "Ground",
+          "accuracy": "Strength + Brawl",
+          "damage": "Strength + 2",
+          "effect": "The target is trapped and takes 1d6 damage at the end of each of its turns for 3 rounds."
+        },
+        {
+          "name": "Scorching Sands",
+          "type": "Ground",
+          "accuracy": "Special + Channel",
+          "damage": "Special + 4",
+          "effect": "Roll 1d6. On a 6, the target is Burned."
+        },
+        {
+          "name": "Shore Up",
+          "type": "Ground",
+          "accuracy": "Automatic",
+          "damage": "None",
+          "effect": "The user recovers HP. Amount depends on the weather."
+        },
+        {
+          "name": "Spikes",
+          "type": "Ground",
+          "accuracy": "Automatic",
+          "damage": "None",
+          "effect": "Sets a hazard on the opponent's side of the field. Pokémon entering the field take damage."
+        },
+        {
+          "name": "Stomping Tantrum",
+          "type": "Ground",
+          "accuracy": "Strength + Brawl",
+          "damage": "Strength + 4",
+          "effect": "If the user's last move failed, this move's damage is doubled."
+        },
+        {
+          "name": "Tectonic Rage",
+          "type": "Ground",
+          "accuracy": "Varies",
+          "damage": "Varies",
+          "effect": "Z-Move. Base power and category depend on the original move."
+        }
+      ],
+      "ice": [
+        {
+          "name": "Aurora Beam",
+          "type": "Ice",
+          "accuracy": "Special + Channel",
+          "damage": "Special + 4",
+          "effect": "Roll 1d6. On a 6, the target's Strength is lowered by 1."
+        },
+        {
+          "name": "Aurora Veil",
+          "type": "Ice",
+          "accuracy": "Automatic",
+          "damage": "None",
+          "effect": "For 5 rounds, damage from physical and special attacks is halved. Can only be used in Hail/Snow."
+        },
+        {
+          "name": "Avalanche",
+          "type": "Ice",
+          "accuracy": "Strength + Brawl",
+          "damage": "Strength + 4",
+          "effect": "If the user was damaged this round, this move's damage is doubled."
+        },
+        {
+          "name": "Blizzard",
+          "type": "Ice",
+          "accuracy": "Special + Channel",
+          "damage": "Special + 6",
+          "effect": "Hits all adjacent opponents. Roll 1d6. On a 6, targets are Frozen. 100% accuracy in Hail/Snow."
+        },
+        {
+          "name": "Chilly Reception",
+          "type": "Ice",
+          "accuracy": "Automatic",
+          "damage": "None",
+          "effect": "The user switches out and summons Snow weather."
+        },
+        {
+          "name": "Freeze-Dry",
+          "type": "Ice",
+          "accuracy": "Special + Channel",
+          "damage": "Special + 4",
+          "effect": "This move is super-effective against Water-types."
+        },
+        {
+          "name": "Freeze Shock",
+          "type": "Ice",
+          "accuracy": "Special + Channel",
+          "damage": "Special + 7",
+          "effect": "The user charges for one turn, then attacks. Roll 1d6. On a 6, the target is Paralyzed."
+        },
+        {
+          "name": "Frost Breath",
+          "type": "Ice",
+          "accuracy": "Special + Channel",
+          "damage": "Special + 4",
+          "effect": "This move is always a critical hit."
+        },
+        {
+          "name": "Glacial Lance",
+          "type": "Ice",
+          "accuracy": "Strength + Brawl",
+          "damage": "Strength + 6",
+          "effect": "Hits all adjacent opponents."
+        },
+        {
+          "name": "Glaciate",
+          "type": "Ice",
+          "accuracy": "Special + Channel",
+          "damage": "Special + 4",
+          "effect": "Hits all adjacent opponents. Lowers their Dexterity by 1."
+        },
+        {
+          "name": "Hail",
+          "type": "Ice",
+          "accuracy": "Automatic",
+          "damage": "None",
+          "effect": "Creates Hail/Snow Weather for 5 rounds."
+        },
+        {
+          "name": "Haze",
+          "type": "Ice",
+          "accuracy": "Automatic",
+          "damage": "None",
+          "effect": "Resets all stat changes on the battlefield."
+        },
+        {
+          "name": "Ice Ball",
+          "type": "Ice",
+          "accuracy": "Strength + Brawl",
+          "damage": "Strength + 2",
+          "effect": "This move's damage doubles each consecutive hit, up to 5 hits."
+        },
+        {
+          "name": "Ice Beam",
+          "type": "Ice",
+          "accuracy": "Special + Channel",
+          "damage": "Special + 5",
+          "effect": "Roll 1d6. On a 6, the target is Frozen."
+        },
+        {
+          "name": "Ice Burn",
+          "type": "Ice",
+          "accuracy": "Special + Channel",
+          "damage": "Special + 7",
+          "effect": "The user charges for one turn, then attacks. Roll 1d6. On a 6, the target is Burned."
+        },
+        {
+          "name": "Ice Fang",
+          "type": "Ice",
+          "accuracy": "Strength + Brawl",
+          "damage": "Strength + 4",
+          "effect": "Roll 1d6. On a 6, the target is Frozen or Flinches."
+        },
+        {
+          "name": "Ice Hammer",
+          "type": "Ice",
+          "accuracy": "Strength + Brawl",
+          "damage": "Strength + 6",
+          "effect": "The user's Dexterity is lowered by 1."
+        },
+        {
+          "name": "Ice Punch",
+          "type": "Ice",
+          "accuracy": "Strength + Brawl",
+          "damage": "Strength + 4",
+          "effect": "Roll 1d6. On a 6, the target is Frozen."
+        },
+        {
+          "name": "Ice Shard",
+          "type": "Ice",
+          "accuracy": "Strength + Brawl",
+          "damage": "Strength + 3",
+          "effect": "Priority."
+        },
+        {
+          "name": "Ice Spinner",
+          "type": "Ice",
+          "accuracy": "Strength + Brawl",
+          "damage": "Strength + 5",
+          "effect": "Destroys any active Terrain."
+        },
+        {
+          "name": "Icicle Crash",
+          "type": "Ice",
+          "accuracy": "Strength + Brawl",
+          "damage": "Strength + 5",
+          "effect": "Roll 1d6. On a 6, the target Flinches."
+        },
+        {
+          "name": "Icicle Spear",
+          "type": "Ice",
+          "accuracy": "Strength + Brawl",
+          "damage": "Strength + 2",
+          "effect": "This move hits 2 to 5 times."
+        },
+        {
+          "name": "Icy Wind",
+          "type": "Ice",
+          "accuracy": "Special + Channel",
+          "damage": "Special + 3",
+          "effect": "Hits all adjacent opponents. Lowers their Dexterity by 1."
+        },
+        {
+          "name": "Mist",
+          "type": "Ice",
+          "accuracy": "Automatic",
+          "damage": "None",
+          "effect": "For 5 rounds, the user and its allies are protected from stat-lowering moves and abilities."
+        },
+        {
+          "name": "Mountain Gale",
+          "type": "Ice",
+          "accuracy": "Strength + Brawl",
+          "damage": "Strength + 6",
+          "effect": "Hits all adjacent opponents. Roll 1d6. On a 6, targets Flinch."
+        },
+        {
+          "name": "Powder Snow",
+          "type": "Ice",
+          "accuracy": "Special + Channel",
+          "damage": "Special + 3",
+          "effect": "Hits all adjacent opponents. Roll 1d6. On a 6, targets are Frozen."
+        },
+        {
+          "name": "Sheer Cold",
+          "type": "Ice",
+          "accuracy": "Special + Channel",
+          "damage": "OHKO",
+          "effect": "One-Hit KO move. Very Low Accuracy."
+        },
+        {
+          "name": "Subzero Slammer",
+          "type": "Ice",
+          "accuracy": "Varies",
+          "damage": "Varies",
+          "effect": "Z-Move. Base power and category depend on the original move."
+        },
+        {
+          "name": "Triple Axel",
+          "type": "Ice",
+          "accuracy": "Strength + Brawl",
+          "damage": "Strength + 2",
+          "effect": "This move hits up to 3 times. The second hit has +1 damage, and the third has +2."
+        }
+      ]
+    }
+  }
+}

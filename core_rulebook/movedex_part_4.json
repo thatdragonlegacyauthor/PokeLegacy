@@ -1,0 +1,1226 @@
+{
+  "game_data_compendium": {
+    "chapter_11_movedex": {
+      "normal": [
+        {
+          "name": "Acupressure",
+          "type": "Normal",
+          "accuracy": "Automatic",
+          "damage": "None",
+          "effect": "Sharply raises one of the target's stats at random."
+        },
+        {
+          "name": "After You",
+          "type": "Normal",
+          "accuracy": "Automatic",
+          "damage": "None",
+          "effect": "The target moves immediately after the user."
+        },
+        {
+          "name": "Assist",
+          "type": "Normal",
+          "accuracy": "Automatic",
+          "damage": "None",
+          "effect": "The user performs a random move known by another Pokémon in the party."
+        },
+        {
+          "name": "Attract",
+          "type": "Normal",
+          "accuracy": "Special + Charm",
+          "damage": "None",
+          "effect": "The target becomes infatuated with the user."
+        },
+        {
+          "name": "Barrage",
+          "type": "Normal",
+          "accuracy": "Strength + Brawl",
+          "damage": "Strength + 1",
+          "effect": "This move hits 2 to 5 times."
+        },
+        {
+          "name": "Baton Pass",
+          "type": "Normal",
+          "accuracy": "Automatic",
+          "damage": "None",
+          "effect": "The user switches out, and the incoming Pokémon inherits all of the user's stat changes."
+        },
+        {
+          "name": "Belly Drum",
+          "type": "Normal",
+          "accuracy": "Automatic",
+          "damage": "None",
+          "effect": "The user sacrifices half of its max HP to maximize its Strength stat."
+        },
+        {
+          "name": "Bestow",
+          "type": "Normal",
+          "accuracy": "Automatic",
+          "damage": "None",
+          "effect": "The user gives its held item to the target."
+        },
+        {
+          "name": "Bide",
+          "type": "Normal",
+          "accuracy": "Automatic",
+          "damage": "Fixed",
+          "effect": "The user endures damage for two turns, then deals back double the damage taken."
+        },
+        {
+          "name": "Bind",
+          "type": "Normal",
+          "accuracy": "Strength + Brawl",
+          "damage": "Strength + 1",
+          "effect": "The target is trapped and takes 1d6 damage at the end of each of its turns for 3 rounds."
+        },
+        {
+          "name": "Block",
+          "type": "Normal",
+          "accuracy": "Automatic",
+          "damage": "None",
+          "effect": "The target is trapped and cannot switch out."
+        },
+        {
+          "name": "Body Slam",
+          "type": "Normal",
+          "accuracy": "Strength + Brawl",
+          "damage": "Strength + 5",
+          "effect": "Roll 1d6. On a 6, the target is Paralyzed."
+        },
+        {
+          "name": "Boomburst",
+          "type": "Normal",
+          "accuracy": "Special + Channel",
+          "damage": "Special + 7",
+          "effect": "Hits all adjacent Pokémon."
+        },
+        {
+          "name": "Camouflage",
+          "type": "Normal",
+          "accuracy": "Automatic",
+          "damage": "None",
+          "effect": "The user's type changes depending on the terrain."
+        },
+        {
+          "name": "Celebrate",
+          "type": "Normal",
+          "accuracy": "Automatic",
+          "damage": "None",
+          "effect": "No effect. The Pokémon celebrates."
+        },
+        {
+          "name": "Chip Away",
+          "type": "Normal",
+          "accuracy": "Strength + Brawl",
+          "damage": "Strength + 4",
+          "effect": "Ignores the target's Defense and Evasion boosts."
+        },
+        {
+          "name": "Comet Punch",
+          "type": "Normal",
+          "accuracy": "Strength + Brawl",
+          "damage": "Strength + 1",
+          "effect": "This move hits 2 to 5 times."
+        },
+        {
+          "name": "Constrict",
+          "type": "Normal",
+          "accuracy": "Strength + Brawl",
+          "damage": "Strength + 1",
+          "effect": "Roll 1d6. On a 6, the target's Dexterity is lowered by 1."
+        },
+        {
+          "name": "Conversion",
+          "type": "Normal",
+          "accuracy": "Automatic",
+          "damage": "None",
+          "effect": "The user's type changes to the type of the first move in its move list."
+        },
+        {
+          "name": "Conversion 2",
+          "type": "Normal",
+          "accuracy": "Automatic",
+          "damage": "None",
+          "effect": "The user's type changes to a type that resists the last move that hit it."
+        },
+        {
+          "name": "Copycat",
+          "type": "Normal",
+          "accuracy": "Automatic",
+          "damage": "None",
+          "effect": "The user copies the last move used."
+        },
+        {
+          "name": "Covet",
+          "type": "Normal",
+          "accuracy": "Strength + Brawl",
+          "damage": "Strength + 4",
+          "effect": "The user steals the target's held item."
+        },
+        {
+          "name": "Crush Claw",
+          "type": "Normal",
+          "accuracy": "Strength + Brawl",
+          "damage": "Strength + 4",
+          "effect": "Roll 1d6. On a 5 or 6, the target's Defense is lowered by 1."
+        },
+        {
+          "name": "Crush Grip",
+          "type": "Normal",
+          "accuracy": "Strength + Brawl",
+          "damage": "Strength + X",
+          "effect": "Damage is higher the more HP the target has."
+        },
+        {
+          "name": "Cut",
+          "type": "Normal",
+          "accuracy": "Strength + Brawl",
+          "damage": "Strength + 3",
+          "effect": "None."
+        },
+        {
+          "name": "Defense Curl",
+          "type": "Normal",
+          "accuracy": "Automatic",
+          "damage": "None",
+          "effect": "Raises the user's Defense by 1. Doubles the power of Rollout and Ice Ball."
+        },
+        {
+          "name": "Disable",
+          "type": "Normal",
+          "accuracy": "Special + Channel",
+          "damage": "None",
+          "effect": "The last move the target used is disabled for 4 rounds."
+        },
+        {
+          "name": "Dizzy Punch",
+          "type": "Normal",
+          "accuracy": "Strength + Brawl",
+          "damage": "Strength + 4",
+          "effect": "Roll 1d6. On a 6, the target is Confused."
+        },
+        {
+          "name": "Double Hit",
+          "type": "Normal",
+          "accuracy": "Strength + Brawl",
+          "damage": "Strength + 2",
+          "effect": "This move hits twice."
+        },
+        {
+          "name": "Double Slap",
+          "type": "Normal",
+          "accuracy": "Strength + Brawl",
+          "damage": "Strength + 1",
+          "effect": "This move hits 2 to 5 times."
+        },
+        {
+          "name": "Double Team",
+          "type": "Normal",
+          "accuracy": "Automatic",
+          "damage": "None",
+          "effect": "Raises the user's Evasion by 1."
+        },
+        {
+          "name": "Double-Edge",
+          "type": "Normal",
+          "accuracy": "Strength + Brawl",
+          "damage": "Strength + 6",
+          "effect": "The user takes recoil damage equal to 1/3 of the damage dealt."
+        },
+        {
+          "name": "Echoed Voice",
+          "type": "Normal",
+          "accuracy": "Special + Channel",
+          "damage": "Special + 3",
+          "effect": "If this move is used consecutively, its power increases."
+        },
+        {
+          "name": "Egg Bomb",
+          "type": "Normal",
+          "accuracy": "Strength + Brawl",
+          "damage": "Strength + 6",
+          "effect": "Low Accuracy."
+        },
+        {
+          "name": "Encore",
+          "type": "Normal",
+          "accuracy": "Special + Channel",
+          "damage": "None",
+          "effect": "The target is forced to repeat its last move for 3 rounds."
+        },
+        {
+          "name": "Endeavor",
+          "type": "Normal",
+          "accuracy": "Strength + Brawl",
+          "damage": "Fixed",
+          "effect": "Reduces the target's HP to be equal to the user's current HP."
+        },
+        {
+          "name": "Endure",
+          "type": "Normal",
+          "accuracy": "Automatic",
+          "damage": "None",
+          "effect": "Priority. The user survives the next hit with at least 1 HP."
+        },
+        {
+          "name": "Entrainment",
+          "type": "Normal",
+          "accuracy": "Automatic",
+          "damage": "None",
+          "effect": "The target's Ability is changed to match the user's."
+        },
+        {
+          "name": "Explosion",
+          "type": "Normal",
+          "accuracy": "Strength + Brawl",
+          "damage": "Strength + 12",
+          "effect": "The user faints. Hits all adjacent Pokémon."
+        },
+        {
+          "name": "Extreme Speed",
+          "type": "Normal",
+          "accuracy": "Strength + Brawl",
+          "damage": "Strength + 5",
+          "effect": "High Priority."
+        },
+        {
+          "name": "Facade",
+          "type": "Normal",
+          "accuracy": "Strength + Brawl",
+          "damage": "Strength + 4",
+          "effect": "If the user is Burned, Paralyzed, or Poisoned, this move's damage is doubled."
+        },
+        {
+          "name": "Fake Out",
+          "type": "Normal",
+          "accuracy": "Strength + Brawl",
+          "damage": "Strength + 3",
+          "effect": "High Priority. Causes the target to Flinch. Fails if not used on the first turn."
+        },
+        {
+          "name": "False Swipe",
+          "type": "Normal",
+          "accuracy": "Strength + Brawl",
+          "damage": "Strength + 3",
+          "effect": "This move cannot reduce the target's HP below 1."
+        },
+        {
+          "name": "Feint",
+          "type": "Normal",
+          "accuracy": "Strength + Brawl",
+          "damage": "Strength + 2",
+          "effect": "High Priority. This move hits even if the target is using Protect or Detect."
+        },
+        {
+          "name": "Flail",
+          "type": "Normal",
+          "accuracy": "Strength + Brawl",
+          "damage": "Strength + X",
+          "effect": "Damage increases the lower the user's HP is."
+        },
+        {
+          "name": "Flash",
+          "type": "Normal",
+          "accuracy": "Special + Channel",
+          "damage": "None",
+          "effect": "Lowers the target's Accuracy by 1."
+        },
+        {
+          "name": "Focus Energy",
+          "type": "Normal",
+          "accuracy": "Automatic",
+          "damage": "None",
+          "effect": "Raises the user's critical hit ratio."
+        },
+        {
+          "name": "Follow Me",
+          "type": "Normal",
+          "accuracy": "Automatic",
+          "damage": "None",
+          "effect": "Priority. All incoming attacks are redirected to the user for this round."
+        },
+        {
+          "name": "Foresight",
+          "type": "Normal",
+          "accuracy": "Automatic",
+          "damage": "None",
+          "effect": "Ghost-type immunities are ignored. Evasion boosts are ignored."
+        },
+        {
+          "name": "Frustration",
+          "type": "Normal",
+          "accuracy": "Strength + Brawl",
+          "damage": "Strength + X",
+          "effect": "Damage increases the lower the user's Happiness is."
+        },
+        {
+          "name": "Fury Attack",
+          "type": "Normal",
+          "accuracy": "Strength + Brawl",
+          "damage": "Strength + 1",
+          "effect": "This move hits 2 to 5 times."
+        },
+        {
+          "name": "Fury Swipes",
+          "type": "Normal",
+          "accuracy": "Strength + Brawl",
+          "damage": "Strength + 1",
+          "effect": "This move hits 2 to 5 times."
+        },
+        {
+          "name": "Giga Impact",
+          "type": "Normal",
+          "accuracy": "Strength + Brawl",
+          "damage": "Strength + 8",
+          "effect": "The user must recharge on the next turn."
+        },
+        {
+          "name": "Glare",
+          "type": "Normal",
+          "accuracy": "Special + Intimidate",
+          "damage": "None",
+          "effect": "The target is Paralyzed."
+        },
+        {
+          "name": "Growl",
+          "type": "Normal",
+          "accuracy": "Automatic",
+          "damage": "None",
+          "effect": "Lowers the target's Strength by 1."
+        },
+        {
+          "name": "Growth",
+          "type": "Normal",
+          "accuracy": "Automatic",
+          "damage": "None",
+          "effect": "Raises the user's Strength and Special by 1 (by 2 in Sunny Weather)."
+        },
+        {
+          "name": "Guillotine",
+          "type": "Normal",
+          "accuracy": "Strength + Brawl",
+          "damage": "OHKO",
+          "effect": "One-Hit KO move. Very Low Accuracy."
+        },
+        {
+          "name": "Harden",
+          "type": "Normal",
+          "accuracy": "Automatic",
+          "damage": "None",
+          "effect": "Raises the user's Defense by 1."
+        },
+        {
+          "name": "Head Charge",
+          "type": "Normal",
+          "accuracy": "Strength + Brawl",
+          "damage": "Strength + 6",
+          "effect": "The user takes recoil damage equal to 1/4 of the damage dealt."
+        },
+        {
+          "name": "Headbutt",
+          "type": "Normal",
+          "accuracy": "Strength + Brawl",
+          "damage": "Strength + 4",
+          "effect": "Roll 1d6. On a 6, the target Flinches."
+        },
+        {
+          "name": "Heal Bell",
+          "type": "Normal",
+          "accuracy": "Automatic",
+          "damage": "None",
+          "effect": "Cures all status ailments on the user's team."
+        },
+        {
+          "name": "Helping Hand",
+          "type": "Normal",
+          "accuracy": "Automatic",
+          "damage": "None",
+          "effect": "Priority. Boosts the power of an ally's move by 50%."
+        },
+        {
+          "name": "Hidden Power",
+          "type": "Normal",
+          "accuracy": "Special + Channel",
+          "damage": "Special + 4",
+          "effect": "This move's type varies depending on the user's individual values."
+        },
+        {
+          "name": "Hold Back",
+          "type": "Normal",
+          "accuracy": "Strength + Brawl",
+          "damage": "Strength + 3",
+          "effect": "This move cannot reduce the target's HP below 1."
+        },
+        {
+          "name": "Horn Attack",
+          "type": "Normal",
+          "accuracy": "Strength + Brawl",
+          "damage": "Strength + 4",
+          "effect": "None."
+        },
+        {
+          "name": "Horn Drill",
+          "type": "Normal",
+          "accuracy": "Strength + Brawl",
+          "damage": "OHKO",
+          "effect": "One-Hit KO move. Very Low Accuracy."
+        },
+        {
+          "name": "Howl",
+          "type": "Normal",
+          "accuracy": "Automatic",
+          "damage": "None",
+          "effect": "Raises the user's Strength by 1."
+        },
+        {
+          "name": "Hyper Beam",
+          "type": "Normal",
+          "accuracy": "Special + Channel",
+          "damage": "Special + 8",
+          "effect": "The user must recharge on the next turn."
+        },
+        {
+          "name": "Hyper Drill",
+          "type": "Normal",
+          "accuracy": "Strength + Brawl",
+          "damage": "Strength + 6",
+          "effect": "This move hits even if the target is using Protect or Detect."
+        },
+        {
+          "name": "Hyper Fang",
+          "type": "Normal",
+          "accuracy": "Strength + Brawl",
+          "damage": "Strength + 5",
+          "effect": "Roll 1d6. On a 6, the target Flinches."
+        },
+        {
+          "name": "Hyper Voice",
+          "type": "Normal",
+          "accuracy": "Special + Channel",
+          "damage": "Special + 5",
+          "effect": "Hits all adjacent opponents."
+        },
+        {
+          "name": "Judgment",
+          "type": "Normal",
+          "accuracy": "Special + Channel",
+          "damage": "Special + 6",
+          "effect": "This move's type changes depending on the Plate held by the user."
+        },
+        {
+          "name": "Laser Focus",
+          "type": "Normal",
+          "accuracy": "Automatic",
+          "damage": "None",
+          "effect": "The user's next move is guaranteed to be a critical hit."
+        },
+        {
+          "name": "Last Resort",
+          "type": "Normal",
+          "accuracy": "Strength + Brawl",
+          "damage": "Strength + 7",
+          "effect": "This move can only be used after all other known moves have been used."
+        },
+        {
+          "name": "Leer",
+          "type": "Normal",
+          "accuracy": "Automatic",
+          "damage": "None",
+          "effect": "Lowers the target's Defense by 1."
+        },
+        {
+          "name": "Lock-On",
+          "type": "Normal",
+          "accuracy": "Automatic",
+          "damage": "None",
+          "effect": "The user's next move is guaranteed to hit."
+        },
+        {
+          "name": "Lovely Kiss",
+          "type": "Normal",
+          "accuracy": "Special + Charm",
+          "damage": "None",
+          "effect": "Puts the target to sleep. Low Accuracy."
+        },
+        {
+          "name": "Lucky Chant",
+          "type": "Normal",
+          "accuracy": "Automatic",
+          "damage": "None",
+          "effect": "For 5 rounds, the user and its allies are protected from critical hits."
+        },
+        {
+          "name": "Me First",
+          "type": "Normal",
+          "accuracy": "Automatic",
+          "damage": "Varies",
+          "effect": "Priority. The user copies the target's move and uses it with a 50% power boost."
+        },
+        {
+          "name": "Mean Look",
+          "type": "Normal",
+          "accuracy": "Automatic",
+          "damage": "None",
+          "effect": "The target is trapped and cannot switch out."
+        },
+        {
+          "name": "Mega Kick",
+          "type": "Normal",
+          "accuracy": "Strength + Brawl",
+          "damage": "Strength + 6",
+          "effect": "Low Accuracy."
+        },
+        {
+          "name": "Mega Punch",
+          "type": "Normal",
+          "accuracy": "Strength + Brawl",
+          "damage": "Strength + 5",
+          "effect": "None."
+        },
+        {
+          "name": "Metronome",
+          "type": "Normal",
+          "accuracy": "Automatic",
+          "damage": "Varies",
+          "effect": "The user performs a random move."
+        },
+        {
+          "name": "Milk Drink",
+          "type": "Normal",
+          "accuracy": "Automatic",
+          "damage": "None",
+          "effect": "The user recovers up to half of its max HP."
+        },
+        {
+          "name": "Mimic",
+          "type": "Normal",
+          "accuracy": "Automatic",
+          "damage": "None",
+          "effect": "The user copies the last move used by the target, replacing Mimic for the rest of the battle."
+        },
+        {
+          "name": "Mind Reader",
+          "type": "Normal",
+          "accuracy": "Automatic",
+          "damage": "None",
+          "effect": "The user's next move is guaranteed to hit."
+        },
+        {
+          "name": "Minimize",
+          "type": "Normal",
+          "accuracy": "Automatic",
+          "damage": "None",
+          "effect": "Raises the user's Evasion by 2."
+        },
+        {
+          "name": "Morning Sun",
+          "type": "Normal",
+          "accuracy": "Automatic",
+          "damage": "None",
+          "effect": "The user recovers HP. Amount depends on the weather."
+        },
+        {
+          "name": "Multi-Attack",
+          "type": "Normal",
+          "accuracy": "Strength + Brawl",
+          "damage": "Strength + 6",
+          "effect": "This move's type changes depending on the Memory held by the user."
+        },
+        {
+          "name": "Nature Power",
+          "type": "Normal",
+          "accuracy": "Automatic",
+          "damage": "Varies",
+          "effect": "The move's effect changes depending on the terrain."
+        },
+        {
+          "name": "Noble Roar",
+          "type": "Normal",
+          "accuracy": "Automatic",
+          "damage": "None",
+          "effect": "Lowers the target's Strength and Special by 1."
+        },
+        {
+          "name": "Odor Sleuth",
+          "type": "Normal",
+          "accuracy": "Automatic",
+          "damage": "None",
+          "effect": "Ghost-type immunities are ignored. Evasion boosts are ignored."
+        },
+        {
+          "name": "Pain Split",
+          "type": "Normal",
+          "accuracy": "Automatic",
+          "damage": "None",
+          "effect": "The user and the target average their current HP."
+        },
+        {
+          "name": "Pay Day",
+          "type": "Normal",
+          "accuracy": "Strength + Brawl",
+          "damage": "Strength + 3",
+          "effect": "Scatters coins equal to 5 times the user's level."
+        },
+        {
+          "name": "Perish Song",
+          "type": "Normal",
+          "accuracy": "Automatic",
+          "damage": "None",
+          "effect": "All Pokémon that hear this song will faint in 3 rounds unless they switch out."
+        },
+        {
+          "name": "Play Nice",
+          "type": "Normal",
+          "accuracy": "Automatic",
+          "damage": "None",
+          "effect": "Lowers the target's Strength by 1. This move never misses."
+        },
+        {
+          "name": "Population Bomb",
+          "type": "Normal",
+          "accuracy": "Strength + Brawl",
+          "damage": "Strength + 1",
+          "effect": "This move hits 1 to 10 times."
+        },
+        {
+          "name": "Pound",
+          "type": "Normal",
+          "accuracy": "Strength + Brawl",
+          "damage": "Strength + 3",
+          "effect": "None."
+        },
+        {
+          "name": "Present",
+          "type": "Normal",
+          "accuracy": "Strength + Brawl",
+          "damage": "Varies",
+          "effect": "This move can either deal damage or heal the target."
+        },
+        {
+          "name": "Protect",
+          "type": "Normal",
+          "accuracy": "Automatic",
+          "damage": "None",
+          "effect": "Priority. Protects the user from all attacks."
+        },
+        {
+          "name": "Psych Up",
+          "type": "Normal",
+          "accuracy": "Automatic",
+          "damage": "None",
+          "effect": "The user copies the target's stat changes."
+        },
+        {
+          "name": "Quick Attack",
+          "type": "Normal",
+          "accuracy": "Strength + Brawl",
+          "damage": "Strength + 3",
+          "effect": "Priority."
+        },
+        {
+          "name": "Rage",
+          "type": "Normal",
+          "accuracy": "Strength + Brawl",
+          "damage": "Strength + 2",
+          "effect": "If the user is hit after using this move, its Strength is raised by 1."
+        },
+        {
+          "name": "Raging Bull",
+          "type": "Normal",
+          "accuracy": "Strength + Brawl",
+          "damage": "Strength + 5",
+          "effect": "Destroys Reflect and Light Screen. Type changes based on Tauros's form."
+        },
+        {
+          "name": "Rapid Spin",
+          "type": "Normal",
+          "accuracy": "Strength + Brawl",
+          "damage": "Strength + 3",
+          "effect": "Removes hazards and trapping effects from the user's side of the field. Raises the user's Dexterity by 1."
+        },
+        {
+          "name": "Razor Wind",
+          "type": "Normal",
+          "accuracy": "Special + Channel",
+          "damage": "Special + 5",
+          "effect": "The user charges for one turn, then attacks. High Critical Hit Ratio."
+        },
+        {
+          "name": "Recover",
+          "type": "Normal",
+          "accuracy": "Automatic",
+          "damage": "None",
+          "effect": "The user recovers up to half of its max HP."
+        },
+        {
+          "name": "Recycle",
+          "type": "Normal",
+          "accuracy": "Automatic",
+          "damage": "None",
+          "effect": "The user recovers a consumed held item."
+        },
+        {
+          "name": "Reflect Type",
+          "type": "Normal",
+          "accuracy": "Automatic",
+          "damage": "None",
+          "effect": "The user's type changes to match the target's."
+        },
+        {
+          "name": "Refresh",
+          "type": "Normal",
+          "accuracy": "Automatic",
+          "damage": "None",
+          "effect": "Cures the user of Burn, Poison, and Paralysis."
+        },
+        {
+          "name": "Relic Song",
+          "type": "Normal",
+          "accuracy": "Special + Channel",
+          "damage": "Special + 4",
+          "effect": "Hits all adjacent opponents. Roll 1d6. On a 6, targets fall asleep. Changes Meloetta's form."
+        },
+        {
+          "name": "Rest",
+          "type": "Normal",
+          "accuracy": "Automatic",
+          "damage": "None",
+          "effect": "The user falls asleep for two turns, but fully recovers HP and is cured of all status ailments."
+        },
+        {
+          "name": "Retaliate",
+          "type": "Normal",
+          "accuracy": "Strength + Brawl",
+          "damage": "Strength + 4",
+          "effect": "If an ally fainted on the previous turn, this move's damage is doubled."
+        },
+        {
+          "name": "Return",
+          "type": "Normal",
+          "accuracy": "Strength + Brawl",
+          "damage": "Strength + X",
+          "effect": "Damage increases the higher the user's Happiness is."
+        },
+        {
+          "name": "Revelation Dance",
+          "type": "Normal",
+          "accuracy": "Special + Channel",
+          "damage": "Special + 5",
+          "effect": "This move's type matches the user's primary type."
+        },
+        {
+          "name": "Roar",
+          "type": "Normal",
+          "accuracy": "Automatic",
+          "damage": "None",
+          "effect": "The target is forced to switch out."
+        },
+        {
+          "name": "Rock Climb",
+          "type": "Normal",
+          "accuracy": "Strength + Brawl",
+          "damage": "Strength + 5",
+          "effect": "Roll 1d6. On a 6, the target is Confused."
+        },
+        {
+          "name": "Round",
+          "type": "Normal",
+          "accuracy": "Special + Channel",
+          "damage": "Special + 4",
+          "effect": "If other Pokémon use this move in the same round, they will move immediately after the first user and the move's power will be boosted."
+        },
+        {
+          "name": "Safeguard",
+          "type": "Normal",
+          "accuracy": "Automatic",
+          "damage": "None",
+          "effect": "For 5 rounds, the user and its allies are protected from status ailments."
+        },
+        {
+          "name": "Scary Face",
+          "type": "Normal",
+          "accuracy": "Automatic",
+          "damage": "None",
+          "effect": "Lowers the target's Dexterity by 2."
+        },
+        {
+          "name": "Scratch",
+          "type": "Normal",
+          "accuracy": "Strength + Brawl",
+          "damage": "Strength + 3",
+          "effect": "None."
+        },
+        {
+          "name": "Screech",
+          "type": "Normal",
+          "accuracy": "Automatic",
+          "damage": "None",
+          "effect": "Lowers the target's Defense by 2."
+        },
+        {
+          "name": "Self-Destruct",
+          "type": "Normal",
+          "accuracy": "Strength + Brawl",
+          "damage": "Strength + 10",
+          "effect": "The user faints. Hits all adjacent Pokémon."
+        },
+        {
+          "name": "Sharpen",
+          "type": "Normal",
+          "accuracy": "Automatic",
+          "damage": "None",
+          "effect": "Raises the user's Strength by 1."
+        },
+        {
+          "name": "Shell Smash",
+          "type": "Normal",
+          "accuracy": "Automatic",
+          "damage": "None",
+          "effect": "Lowers the user's Defense and Special Defense by 1, but raises its Strength, Special, and Dexterity by 2."
+        },
+        {
+          "name": "Sing",
+          "type": "Normal",
+          "accuracy": "Special + Perform",
+          "damage": "None",
+          "effect": "Puts the target to sleep. Low Accuracy."
+        },
+        {
+          "name": "Sketch",
+          "type": "Normal",
+          "accuracy": "Automatic",
+          "damage": "None",
+          "effect": "Permanently copies the last move used by the target, replacing Sketch."
+        },
+        {
+          "name": "Skull Bash",
+          "type": "Normal",
+          "accuracy": "Strength + Brawl",
+          "damage": "Strength + 7",
+          "effect": "The user tucks in its head on the first turn, raising its Defense by 1. On the second turn, it attacks."
+        },
+        {
+          "name": "Slack Off",
+          "type": "Normal",
+          "accuracy": "Automatic",
+          "damage": "None",
+          "effect": "The user recovers up to half of its max HP."
+        },
+        {
+          "name": "Slam",
+          "type": "Normal",
+          "accuracy": "Strength + Brawl",
+          "damage": "Strength + 5",
+          "effect": "Low Accuracy."
+        },
+        {
+          "name": "Slash",
+          "type": "Normal",
+          "accuracy": "Strength + Brawl",
+          "damage": "Strength + 4",
+          "effect": "High Critical Hit Ratio."
+        },
+        {
+          "name": "Sleep Talk",
+          "type": "Normal",
+          "accuracy": "Automatic",
+          "damage": "Varies",
+          "effect": "The user performs one of its other moves at random while asleep."
+        },
+        {
+          "name": "Smelling Salts",
+          "type": "Normal",
+          "accuracy": "Strength + Brawl",
+          "damage": "Strength + 4",
+          "effect": "If the target is Paralyzed, this move's damage is doubled, but the target is cured of Paralysis."
+        },
+        {
+          "name": "Smokescreen",
+          "type": "Normal",
+          "accuracy": "Automatic",
+          "damage": "None",
+          "effect": "Lowers the target's Accuracy by 1."
+        },
+        {
+          "name": "Snore",
+          "type": "Normal",
+          "accuracy": "Special + Channel",
+          "damage": "Special + 3",
+          "effect": "Can only be used while asleep. Roll 1d6. On a 6, the target Flinches."
+        },
+        {
+          "name": "Soft-Boiled",
+          "type": "Normal",
+          "accuracy": "Automatic",
+          "damage": "None",
+          "effect": "The user recovers up to half of its max HP."
+        },
+        {
+          "name": "Sonic Boom",
+          "type": "Normal",
+          "accuracy": "Special + Channel",
+          "damage": "Fixed",
+          "effect": "This move always deals 20 damage."
+        },
+        {
+          "name": "Spike Cannon",
+          "type": "Normal",
+          "accuracy": "Strength + Brawl",
+          "damage": "Strength + 2",
+          "effect": "This move hits 2 to 5 times."
+        },
+        {
+          "name": "Spit Up",
+          "type": "Normal",
+          "accuracy": "Special + Channel",
+          "damage": "Special + X",
+          "effect": "Releases stockpiled energy. Power depends on the number of stockpiles."
+        },
+        {
+          "name": "Splash",
+          "type": "Normal",
+          "accuracy": "Automatic",
+          "damage": "None",
+          "effect": "No effect."
+        },
+        {
+          "name": "Stockpile",
+          "type": "Normal",
+          "accuracy": "Automatic",
+          "damage": "None",
+          "effect": "Raises the user's Defense and Special Defense by 1. Can be used up to 3 times."
+        },
+        {
+          "name": "Stomp",
+          "type": "Normal",
+          "accuracy": "Strength + Brawl",
+          "damage": "Strength + 4",
+          "effect": "Roll 1d6. On a 6, the target Flinches. Deals double damage to minimized Pokémon."
+        },
+        {
+          "name": "Strength",
+          "type": "Normal",
+          "accuracy": "Strength + Brawl",
+          "damage": "Strength + 5",
+          "effect": "None."
+        },
+        {
+          "name": "Struggle",
+          "type": "Normal",
+          "accuracy": "Strength + Brawl",
+          "damage": "Strength + 3",
+          "effect": "Used when a Pokémon has no PP left. The user takes recoil damage equal to 1/4 of its max HP."
+        },
+        {
+          "name": "Stuff Cheeks",
+          "type": "Normal",
+          "accuracy": "Automatic",
+          "damage": "None",
+          "effect": "The user eats its held Berry and raises its Defense by 2."
+        },
+        {
+          "name": "Substitute",
+          "type": "Normal",
+          "accuracy": "Automatic",
+          "damage": "None",
+          "effect": "The user sacrifices 1/4 of its max HP to create a substitute that takes damage for it."
+        },
+        {
+          "name": "Super Fang",
+          "type": "Normal",
+          "accuracy": "Strength + Brawl",
+          "damage": "Fixed",
+          "effect": "Reduces the target's current HP by half."
+        },
+        {
+          "name": "Supersonic",
+          "type": "Normal",
+          "accuracy": "Special + Channel",
+          "damage": "None",
+          "effect": "Confuses the target. Low Accuracy."
+        },
+        {
+          "name": "Swagger",
+          "type": "Normal",
+          "accuracy": "Special + Intimidate",
+          "damage": "None",
+          "effect": "Raises the target's Strength by 2, but also Confuses it."
+        },
+        {
+          "name": "Swallow",
+          "type": "Normal",
+          "accuracy": "Automatic",
+          "damage": "None",
+          "effect": "Recovers HP based on the number of stockpiles."
+        },
+        {
+          "name": "Sweet Scent",
+          "type": "Normal",
+          "accuracy": "Automatic",
+          "damage": "None",
+          "effect": "Lowers the target's Evasion by 1."
+        },
+        {
+          "name": "Swift",
+          "type": "Normal",
+          "accuracy": "Automatic",
+          "damage": "Special + 4",
+          "effect": "This move never misses."
+        },
+        {
+          "name": "Swords Dance",
+          "type": "Normal",
+          "accuracy": "Automatic",
+          "damage": "None",
+          "effect": "Raises the user's Strength by 2."
+        },
+        {
+          "name": "Tackle",
+          "type": "Normal",
+          "accuracy": "Strength + Brawl",
+          "damage": "Strength + 3",
+          "effect": "None."
+        },
+        {
+          "name": "Tail Slap",
+          "type": "Normal",
+          "accuracy": "Strength + Brawl",
+          "damage": "Strength + 2",
+          "effect": "This move hits 2 to 5 times."
+        },
+        {
+          "name": "Tail Whip",
+          "type": "Normal",
+          "accuracy": "Automatic",
+          "damage": "None",
+          "effect": "Lowers the target's Defense by 1."
+        },
+        {
+          "name": "Take Down",
+          "type": "Normal",
+          "accuracy": "Strength + Brawl",
+          "damage": "Strength + 5",
+          "effect": "The user takes recoil damage equal to 1/4 of the damage dealt."
+        },
+        {
+          "name": "Tearful Look",
+          "type": "Normal",
+          "accuracy": "Automatic",
+          "damage": "None",
+          "effect": "Lowers the target's Strength and Special by 1."
+        },
+        {
+          "name": "Teatime",
+          "type": "Normal",
+          "accuracy": "Automatic",
+          "damage": "None",
+          "effect": "All Pokémon on the field consume their held Berries."
+        },
+        {
+          "name": "Techno Blast",
+          "type": "Normal",
+          "accuracy": "Special + Channel",
+          "damage": "Special + 6",
+          "effect": "This move's type changes depending on the Drive held by the user."
+        },
+        {
+          "name": "Teeter Dance",
+          "type": "Normal",
+          "accuracy": "Special + Perform",
+          "damage": "None",
+          "effect": "Confuses all adjacent Pokémon."
+        },
+        {
+          "name": "Tera Blast",
+          "type": "Normal",
+          "accuracy": "Special + Channel",
+          "damage": "Special + 5",
+          "effect": "If the user is Terastallized, this move's type becomes the user's Tera Type. If the user's Strength is higher than its Special, this move becomes a physical attack."
+        },
+        {
+          "name": "Thrash",
+          "type": "Normal",
+          "accuracy": "Strength + Brawl",
+          "damage": "Strength + 6",
+          "effect": "The user attacks for 2-3 rounds and becomes Confused afterward."
+        },
+        {
+          "name": "Tickle",
+          "type": "Normal",
+          "accuracy": "Special + Charm",
+          "damage": "None",
+          "effect": "Lowers the target's Strength and Defense by 1."
+        },
+        {
+          "name": "Transform",
+          "type": "Normal",
+          "accuracy": "Automatic",
+          "damage": "None",
+          "effect": "The user transforms into the target, copying its appearance, stats, moves, and Ability."
+        },
+        {
+          "name": "Tri Attack",
+          "type": "Normal",
+          "accuracy": "Special + Channel",
+          "damage": "Special + 5",
+          "effect": "Roll 1d6. On a 5 or 6, the target is Burned, Paralyzed, or Frozen."
+        },
+        {
+          "name": "Uproar",
+          "type": "Normal",
+          "accuracy": "Special + Channel",
+          "damage": "Special + 5",
+          "effect": "The user makes a loud noise for 3 rounds. During this time, no Pokémon on the field can fall asleep."
+        },
+        {
+          "name": "Veevee Volley",
+          "type": "Normal",
+          "accuracy": "Strength + Brawl",
+          "damage": "Strength + X",
+          "effect": "Damage increases the higher the user's Happiness is."
+        },
+        {
+          "name": "Weather Ball",
+          "type": "Normal",
+          "accuracy": "Special + Channel",
+          "damage": "Special + 3",
+          "effect": "This move's type and power change depending on the weather."
+        },
+        {
+          "name": "Wish",
+          "type": "Normal",
+          "accuracy": "Automatic",
+          "damage": "None",
+          "effect": "At the end of the next round, the user or the Pokémon that switched in recovers up to half of its max HP."
+        },
+        {
+          "name": "Work Up",
+          "type": "Normal",
+          "accuracy": "Automatic",
+          "damage": "None",
+          "effect": "Raises the user's Strength and Special by 1."
+        },
+        {
+          "name": "Wrap",
+          "type": "Normal",
+          "accuracy": "Strength + Brawl",
+          "damage": "Strength + 1",
+          "effect": "The target is trapped and takes 1d6 damage at the end of each of its turns for 3 rounds."
+        },
+        {
+          "name": "Wring Out",
+          "type": "Normal",
+          "accuracy": "Special + Channel",
+          "damage": "Special + X",
+          "effect": "Damage is higher the more HP the target has."
+        },
+        {
+          "name": "Yawn",
+          "type": "Normal",
+          "accuracy": "Special + Charm",
+          "damage": "None",
+          "effect": "The target becomes drowsy and will fall asleep at the end of the next round."
+        }
+      ]
+    }
+  }
+}

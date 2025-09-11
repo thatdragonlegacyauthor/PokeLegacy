@@ -1,0 +1,859 @@
+{
+  "game_data_compendium": {
+    "chapter_11_movedex": {
+      "poison": [
+        {
+          "name": "Acid",
+          "type": "Poison",
+          "accuracy": "Special + Channel",
+          "damage": "Special + 3",
+          "effect": "Roll 1d6. On a 6, the target's Special Defense is lowered by 1."
+        },
+        {
+          "name": "Acid Armor",
+          "type": "Poison",
+          "accuracy": "Automatic",
+          "damage": "None",
+          "effect": "Sharply raises the user's Defense by 2."
+        },
+        {
+          "name": "Acid Downpour",
+          "type": "Poison",
+          "accuracy": "Varies",
+          "damage": "Varies",
+          "effect": "Z-Move. Base power and category depend on the original move."
+        },
+        {
+          "name": "Acid Spray",
+          "type": "Poison",
+          "accuracy": "Special + Channel",
+          "damage": "Special + 3",
+          "effect": "Sharply lowers the target's Special Defense by 2."
+        },
+        {
+          "name": "Baneful Bunker",
+          "type": "Poison",
+          "accuracy": "Automatic",
+          "damage": "None",
+          "effect": "Priority. Protects the user from all attacks. If a contact move is blocked, the attacker is Poisoned."
+        },
+        {
+          "name": "Belch",
+          "type": "Poison",
+          "accuracy": "Special + Channel",
+          "damage": "Special + 6",
+          "effect": "The user must have eaten a Berry to use this move."
+        },
+        {
+          "name": "Clear Smog",
+          "type": "Poison",
+          "accuracy": "Special + Channel",
+          "damage": "Special + 3",
+          "effect": "Resets all of the target's stat changes."
+        },
+        {
+          "name": "Coil",
+          "type": "Poison",
+          "accuracy": "Automatic",
+          "damage": "None",
+          "effect": "Raises the user's Strength, Defense, and Accuracy by 1."
+        },
+        {
+          "name": "Corrosive Gas",
+          "type": "Poison",
+          "accuracy": "Automatic",
+          "damage": "None",
+          "effect": "Destroys the held items of all adjacent Pokémon."
+        },
+        {
+          "name": "Cross Poison",
+          "type": "Poison",
+          "accuracy": "Strength + Brawl",
+          "damage": "Strength + 4",
+          "effect": "High Critical Hit Ratio. Roll 1d6. On a 6, the target is Poisoned."
+        },
+        {
+          "name": "Filthy Terrain",
+          "type": "Poison",
+          "accuracy": "Automatic",
+          "damage": "None",
+          "effect": "Custom Move. Creates a Filthy Terrain for 5 rounds. Pokémon on the ground are immune to Poison and their Poison-type moves are powered up."
+        },
+        {
+          "name": "Gastro Acid",
+          "type": "Poison",
+          "accuracy": "Special + Channel",
+          "damage": "None",
+          "effect": "Suppresses the target's Ability for the rest of the battle."
+        },
+        {
+          "name": "Gunk Shot",
+          "type": "Poison",
+          "accuracy": "Strength + Brawl",
+          "damage": "Strength + 6",
+          "effect": "Roll 1d6. On a 6, the target is Poisoned. Low Accuracy."
+        },
+        {
+          "name": "Mortal Spin",
+          "type": "Poison",
+          "accuracy": "Strength + Brawl",
+          "damage": "Strength + 2",
+          "effect": "Poisons all adjacent opponents. Removes hazards and trapping effects from the user's side of the field."
+        },
+        {
+          "name": "Poison Fang",
+          "type": "Poison",
+          "accuracy": "Strength + Brawl",
+          "damage": "Strength + 3",
+          "effect": "Roll 1d6. On a 5 or 6, the target is Badly Poisoned."
+        },
+        {
+          "name": "Poison Gas",
+          "type": "Poison",
+          "accuracy": "Special + Channel",
+          "damage": "None",
+          "effect": "Poisons all adjacent opponents."
+        },
+        {
+          "name": "Poison Jab",
+          "type": "Poison",
+          "accuracy": "Strength + Brawl",
+          "damage": "Strength + 5",
+          "effect": "Roll 1d6. On a 6, the target is Poisoned."
+        },
+        {
+          "name": "Poison Powder",
+          "type": "Poison",
+          "accuracy": "Special + Channel",
+          "damage": "None",
+          "effect": "The target is Poisoned. Low Accuracy."
+        },
+        {
+          "name": "Poison Sting",
+          "type": "Poison",
+          "accuracy": "Strength + Brawl",
+          "damage": "Strength + 1",
+          "effect": "Roll 1d6. On a 6, the target is Poisoned."
+        },
+        {
+          "name": "Poison Tail",
+          "type": "Poison",
+          "accuracy": "Strength + Brawl",
+          "damage": "Strength + 3",
+          "effect": "High Critical Hit Ratio. Roll 1d6. On a 6, the target is Poisoned."
+        },
+        {
+          "name": "Purify",
+          "type": "Poison",
+          "accuracy": "Automatic",
+          "damage": "None",
+          "effect": "Cures an ally's status ailment and restores some of the user's HP."
+        },
+        {
+          "name": "Shell Side Arm",
+          "type": "Poison",
+          "accuracy": "Special + Channel",
+          "damage": "Special + 5",
+          "effect": "Compares the user's Strength vs. Special and the target's Defense vs. Special Defense to determine the most effective damage category (physical or special)."
+        },
+        {
+          "name": "Sludge",
+          "type": "Poison",
+          "accuracy": "Special + Channel",
+          "damage": "Special + 4",
+          "effect": "Roll 1d6. On a 6, the target is Poisoned."
+        },
+        {
+          "name": "Sludge Bomb",
+          "type": "Poison",
+          "accuracy": "Special + Channel",
+          "damage": "Special + 5",
+          "effect": "Roll 1d6. On a 6, the target is Poisoned."
+        },
+        {
+          "name": "Sludge Wave",
+          "type": "Poison",
+          "accuracy": "Special + Channel",
+          "damage": "Special + 5",
+          "effect": "Hits all adjacent Pokémon. Roll 1d6. On a 6, targets are Poisoned."
+        },
+        {
+          "name": "Smog",
+          "type": "Poison",
+          "accuracy": "Special + Channel",
+          "damage": "Special + 2",
+          "effect": "Roll 1d6. On a 5 or 6, the target is Poisoned."
+        },
+        {
+          "name": "Toxic",
+          "type": "Poison",
+          "accuracy": "Automatic",
+          "damage": "None",
+          "effect": "The target is Badly Poisoned."
+        },
+        {
+          "name": "Toxic Spikes",
+          "type": "Poison",
+          "accuracy": "Automatic",
+          "damage": "None",
+          "effect": "Sets a hazard on the opponent's side of the field. Pokémon entering the field are Poisoned. Using it twice makes them Badly Poisoned."
+        },
+        {
+          "name": "Toxic Thread",
+          "type": "Poison",
+          "accuracy": "Automatic",
+          "damage": "None",
+          "effect": "Lowers the target's Dexterity by 1 and Poisons it."
+        },
+        {
+          "name": "Venom Drench",
+          "type": "Poison",
+          "accuracy": "Automatic",
+          "damage": "None",
+          "effect": "Lowers the Strength, Special, and Dexterity of all Poisoned opponents by 1."
+        },
+        {
+          "name": "Venoshock",
+          "type": "Poison",
+          "accuracy": "Special + Channel",
+          "damage": "Special + 4",
+          "effect": "If the target is Poisoned, this move's damage is doubled."
+        }
+      ],
+      "psychic": [
+        {
+          "name": "Agility",
+          "type": "Psychic",
+          "accuracy": "Automatic",
+          "damage": "None",
+          "effect": "Sharply raises the user's Dexterity by 2."
+        },
+        {
+          "name": "Ally Switch",
+          "type": "Psychic",
+          "accuracy": "Automatic",
+          "damage": "None",
+          "effect": "Priority. The user swaps places with an ally on the field."
+        },
+        {
+          "name": "Amnesia",
+          "type": "Psychic",
+          "accuracy": "Automatic",
+          "damage": "None",
+          "effect": "Sharply raises the user's Special Defense by 2."
+        },
+        {
+          "name": "Barrier",
+          "type": "Psychic",
+          "accuracy": "Automatic",
+          "damage": "None",
+          "effect": "Sharply raises the user's Defense by 2."
+        },
+        {
+          "name": "Calm Mind",
+          "type": "Psychic",
+          "accuracy": "Automatic",
+          "damage": "None",
+          "effect": "Raises the user's Special and Special Defense by 1."
+        },
+        {
+          "name": "Confusion",
+          "type": "Psychic",
+          "accuracy": "Special + Channel",
+          "damage": "Special + 3",
+          "effect": "Roll 1d6. On a 6, the target is Confused."
+        },
+        {
+          "name": "Cosmic Power",
+          "type": "Psychic",
+          "accuracy": "Automatic",
+          "damage": "None",
+          "effect": "Raises the user's Defense and Special Defense by 1."
+        },
+        {
+          "name": "Dream Eater",
+          "type": "Psychic",
+          "accuracy": "Special + Channel",
+          "damage": "Special + 6",
+          "effect": "The user recovers HP equal to half the damage dealt. Only works on sleeping targets."
+        },
+        {
+          "name": "Eerie Spell",
+          "type": "Psychic",
+          "accuracy": "Special + Channel",
+          "damage": "Special + 5",
+          "effect": "Reduces the PP of the target's last used move by 3."
+        },
+        {
+          "name": "Esper Wing",
+          "type": "Psychic",
+          "accuracy": "Special + Channel",
+          "damage": "Special + 5",
+          "effect": "High Priority. High Critical Hit Ratio."
+        },
+        {
+          "name": "Expanding Force",
+          "type": "Psychic",
+          "accuracy": "Special + Channel",
+          "damage": "Special + 5",
+          "effect": "If used on Psychic Terrain, this move hits all adjacent opponents and its damage is boosted by 1.5x."
+        },
+        {
+          "name": "Extrasensory",
+          "type": "Psychic",
+          "accuracy": "Special + Channel",
+          "damage": "Special + 5",
+          "effect": "Roll 1d6. On a 6, the target Flinches."
+        },
+        {
+          "name": "Free-zy Frost",
+          "type": "Psychic",
+          "accuracy": "Special + Channel",
+          "damage": "Special + 5",
+          "effect": "Resets all of the target's stat changes."
+        },
+        {
+          "name": "Future Sight",
+          "type": "Psychic",
+          "accuracy": "Special + Channel",
+          "damage": "Special + 6",
+          "effect": "An attack that will strike the target two turns later."
+        },
+        {
+          "name": "Genesis Supernova",
+          "type": "Psychic",
+          "accuracy": "Special + Channel",
+          "damage": "Special + 9",
+          "effect": "Z-Move. Sets up Psychic Terrain."
+        },
+        {
+          "name": "Glitzy Glow",
+          "type": "Psychic",
+          "accuracy": "Special + Channel",
+          "damage": "Special + 5",
+          "effect": "Sets up Light Screen on the user's side of the field."
+        },
+        {
+          "name": "Gravity",
+          "type": "Psychic",
+          "accuracy": "Automatic",
+          "damage": "None",
+          "effect": "For 5 rounds, all Pokémon are grounded and cannot use flying or levitating moves. Evasion is lowered."
+        },
+        {
+          "name": "Guard Split",
+          "type": "Psychic",
+          "accuracy": "Automatic",
+          "damage": "None",
+          "effect": "The user and the target average their Defense and Special Defense stats."
+        },
+        {
+          "name": "Guard Swap",
+          "type": "Psychic",
+          "accuracy": "Automatic",
+          "damage": "None",
+          "effect": "The user and the target swap their Defense and Special Defense stats."
+        },
+        {
+          "name": "Heal Block",
+          "type": "Psychic",
+          "accuracy": "Automatic",
+          "damage": "None",
+          "effect": "For 5 rounds, the target cannot recover HP."
+        },
+        {
+          "name": "Heal Pulse",
+          "type": "Psychic",
+          "accuracy": "Automatic",
+          "damage": "None",
+          "effect": "Heals the target for up to half of its max HP."
+        },
+        {
+          "name": "Healing Wish",
+          "type": "Psychic",
+          "accuracy": "Automatic",
+          "damage": "None",
+          "effect": "The user faints. The next Pokémon sent out is fully healed and cured of status ailments."
+        },
+        {
+          "name": "Heart Stamp",
+          "type": "Psychic",
+          "accuracy": "Strength + Brawl",
+          "damage": "Strength + 4",
+          "effect": "Roll 1d6. On a 6, the target Flinches."
+        },
+        {
+          "name": "Heart Swap",
+          "type": "Psychic",
+          "accuracy": "Automatic",
+          "damage": "None",
+          "effect": "The user and the target swap all of their stat changes."
+        },
+        {
+          "name": "Hypnosis",
+          "type": "Psychic",
+          "accuracy": "Special + Channel",
+          "damage": "None",
+          "effect": "Puts the target to sleep. Low Accuracy."
+        },
+        {
+          "name": "Imprison",
+          "type": "Psychic",
+          "accuracy": "Automatic",
+          "damage": "None",
+          "effect": "The user prevents opponents from using any moves that the user also knows."
+        },
+        {
+          "name": "Instruct",
+          "type": "Psychic",
+          "accuracy": "Automatic",
+          "damage": "None",
+          "effect": "Priority. The target immediately uses its last used move again."
+        },
+        {
+          "name": "Kinesis",
+          "type": "Psychic",
+          "accuracy": "Special + Channel",
+          "damage": "None",
+          "effect": "Lowers the target's Accuracy by 1."
+        },
+        {
+          "name": "Light Screen",
+          "type": "Psychic",
+          "accuracy": "Automatic",
+          "damage": "None",
+          "effect": "For 5 rounds, special damage against the user's team is halved."
+        },
+        {
+          "name": "Lumina Crash",
+          "type": "Psychic",
+          "accuracy": "Special + Channel",
+          "damage": "Special + 5",
+          "effect": "Sharply lowers the target's Special Defense by 2."
+        },
+        {
+          "name": "Lunar Blessing",
+          "type": "Psychic",
+          "accuracy": "Automatic",
+          "damage": "None",
+          "effect": "The user and its allies recover 1/4 of their max HP and are cured of status ailments."
+        },
+        {
+          "name": "Lunar Dance",
+          "type": "Psychic",
+          "accuracy": "Automatic",
+          "damage": "None",
+          "effect": "The user faints. The next Pokémon sent out is fully healed, cured of status ailments, and has all its PP restored."
+        },
+        {
+          "name": "Magic Coat",
+          "type": "Psychic",
+          "accuracy": "Automatic",
+          "damage": "None",
+          "effect": "Priority. Reflects status moves back at the user."
+        },
+        {
+          "name": "Magic Powder",
+          "type": "Psychic",
+          "accuracy": "Automatic",
+          "damage": "None",
+          "effect": "Changes the target's type to Psychic."
+        },
+        {
+          "name": "Magic Room",
+          "type": "Psychic",
+          "accuracy": "Automatic",
+          "damage": "None",
+          "effect": "For 5 rounds, all held items are suppressed."
+        },
+        {
+          "name": "Miracle Eye",
+          "type": "Psychic",
+          "accuracy": "Automatic",
+          "damage": "None",
+          "effect": "Dark-type immunities to Psychic moves are ignored. Evasion boosts are ignored."
+        },
+        {
+          "name": "Mirror Coat",
+          "type": "Psychic",
+          "accuracy": "Special + Channel",
+          "damage": "Fixed",
+          "effect": "Priority (goes last). If hit by a special attack, the user deals double the damage taken."
+        },
+        {
+          "name": "Photon Geyser",
+          "type": "Psychic",
+          "accuracy": "Special + Channel",
+          "damage": "Special + 6",
+          "effect": "Compares the user's Strength and Special stats, and deals damage based on the higher stat."
+        },
+        {
+          "name": "Power Split",
+          "type": "Psychic",
+          "accuracy": "Automatic",
+          "damage": "None",
+          "effect": "The user and the target average their Strength and Special stats."
+        },
+        {
+          "name": "Power Swap",
+          "type": "Psychic",
+          "accuracy": "Automatic",
+          "damage": "None",
+          "effect": "The user and the target swap their Strength and Special stat changes."
+        },
+        {
+          "name": "Power Trick",
+          "type": "Psychic",
+          "accuracy": "Automatic",
+          "damage": "None",
+          "effect": "The user swaps its Strength and Defense stats."
+        },
+        {
+          "name": "Prismatic Laser",
+          "type": "Psychic",
+          "accuracy": "Special + Channel",
+          "damage": "Special + 8",
+          "effect": "The user must recharge on the next turn."
+        },
+        {
+          "name": "Psybeam",
+          "type": "Psychic",
+          "accuracy": "Special + Channel",
+          "damage": "Special + 4",
+          "effect": "Roll 1d6. On a 6, the target is Confused."
+        },
+        {
+          "name": "Psychic",
+          "type": "Psychic",
+          "accuracy": "Special + Channel",
+          "damage": "Special + 5",
+          "effect": "Roll 1d6. On a 6, the target's Special Defense is lowered by 1."
+        },
+        {
+          "name": "Psychic Fangs",
+          "type": "Psychic",
+          "accuracy": "Strength + Brawl",
+          "damage": "Strength + 5",
+          "effect": "Destroys Reflect and Light Screen."
+        },
+        {
+          "name": "Psychic Terrain",
+          "type": "Psychic",
+          "accuracy": "Automatic",
+          "damage": "None",
+          "effect": "Creates a Psychic Terrain for 5 rounds. Pokémon on the ground are protected from priority moves and their Psychic-type moves are powered up."
+        },
+        {
+          "name": "Psycho Boost",
+          "type": "Psychic",
+          "accuracy": "Special + Channel",
+          "damage": "Special + 7",
+          "effect": "Sharply lowers the user's Special by 2 after use."
+        },
+        {
+          "name": "Psycho Cut",
+          "type": "Psychic",
+          "accuracy": "Strength + Brawl",
+          "damage": "Strength + 4",
+          "effect": "High Critical Hit Ratio."
+        },
+        {
+          "name": "Psycho Shift",
+          "type": "Psychic",
+          "accuracy": "Automatic",
+          "damage": "None",
+          "effect": "The user transfers its status ailment to the target."
+        },
+        {
+          "name": "Psyshield Bash",
+          "type": "Psychic",
+          "accuracy": "Strength + Brawl",
+          "damage": "Strength + 4",
+          "effect": "Raises the user's Defense by 1."
+        },
+        {
+          "name": "Psyshock",
+          "type": "Psychic",
+          "accuracy": "Special + Channel",
+          "damage": "Special + 5",
+          "effect": "This move deals physical damage, using the user's Special stat and the target's Defense stat."
+        },
+        {
+          "name": "Psywave",
+          "type": "Psychic",
+          "accuracy": "Special + Channel",
+          "damage": "Varies",
+          "effect": "Deals damage equal to a random number between 0.5 and 1.5 times the user's level."
+        },
+        {
+          "name": "Reflect",
+          "type": "Psychic",
+          "accuracy": "Automatic",
+          "damage": "None",
+          "effect": "For 5 rounds, physical damage against the user's team is halved."
+        },
+        {
+          "name": "Rest",
+          "type": "Psychic",
+          "accuracy": "Automatic",
+          "damage": "None",
+          "effect": "The user falls asleep for two turns, but fully recovers HP and is cured of all status ailments."
+        },
+        {
+          "name": "Role Play",
+          "type": "Psychic",
+          "accuracy": "Automatic",
+          "damage": "None",
+          "effect": "The user copies the target's Ability."
+        },
+        {
+          "name": "Skill Swap",
+          "type": "Psychic",
+          "accuracy": "Automatic",
+          "damage": "None",
+          "effect": "The user and the target swap Abilities."
+        },
+        {
+          "name": "Speed Swap",
+          "type": "Psychic",
+          "accuracy": "Automatic",
+          "damage": "None",
+          "effect": "The user and the target swap their Dexterity stats."
+        },
+        {
+          "name": "Stored Power",
+          "type": "Psychic",
+          "accuracy": "Special + Channel",
+          "damage": "Special + 2",
+          "effect": "This move's damage increases by +1 for each of the user's stat boosts."
+        },
+        {
+          "name": "Synchronoise",
+          "type": "Psychic",
+          "accuracy": "Special + Channel",
+          "damage": "Special + 6",
+          "effect": "This move only affects targets that share a type with the user."
+        },
+        {
+          "name": "Telekinesis",
+          "type": "Psychic",
+          "accuracy": "Automatic",
+          "damage": "None",
+          "effect": "For 3 rounds, the target is levitated and all moves against it are guaranteed to hit."
+        },
+        {
+          "name": "Teleport",
+          "type": "Psychic",
+          "accuracy": "Automatic",
+          "damage": "None",
+          "effect": "The user switches out. In the wild, it allows escape from battle."
+        },
+        {
+          "name": "Trick",
+          "type": "Psychic",
+          "accuracy": "Automatic",
+          "damage": "None",
+          "effect": "The user and the target swap held items."
+        },
+        {
+          "name": "Trick Room",
+          "type": "Psychic",
+          "accuracy": "Automatic",
+          "damage": "None",
+          "effect": "For 5 rounds, slower Pokémon move first."
+        },
+        {
+          "name": "Twin Beam",
+          "type": "Psychic",
+          "accuracy": "Special + Channel",
+          "damage": "Special + 3",
+          "effect": "This move hits twice."
+        },
+        {
+          "name": "Wonder Room",
+          "type": "Psychic",
+          "accuracy": "Automatic",
+          "damage": "None",
+          "effect": "For 5 rounds, all Pokémon's Defense and Special Defense stats are swapped."
+        },
+        {
+          "name": "Zen Headbutt",
+          "type": "Psychic",
+          "accuracy": "Strength + Brawl",
+          "damage": "Strength + 5",
+          "effect": "Roll 1d6. On a 6, the target Flinches."
+        }
+      ],
+      "rock": [
+        {
+          "name": "Accelrock",
+          "type": "Rock",
+          "accuracy": "Strength + Brawl",
+          "damage": "Strength + 3",
+          "effect": "Priority."
+        },
+        {
+          "name": "Ancient Power",
+          "type": "Rock",
+          "accuracy": "Special + Channel",
+          "damage": "Special + 4",
+          "effect": "Roll 1d6. On a 6, all of the user's stats are raised by 1."
+        },
+        {
+          "name": "Continental Crush",
+          "type": "Rock",
+          "accuracy": "Varies",
+          "damage": "Varies",
+          "effect": "Z-Move. Base power and category depend on the original move."
+        },
+        {
+          "name": "Diamond Storm",
+          "type": "Rock",
+          "accuracy": "Special + Channel",
+          "damage": "Special + 6",
+          "effect": "Hits all adjacent opponents. Roll 1d6. On a 5 or 6, the user's Defense is sharply raised by 2."
+        },
+        {
+          "name": "Head Smash",
+          "type": "Rock",
+          "accuracy": "Strength + Brawl",
+          "damage": "Strength + 8",
+          "effect": "The user takes recoil damage equal to half the damage dealt."
+        },
+        {
+          "name": "Meteor Beam",
+          "type": "Rock",
+          "accuracy": "Special + Channel",
+          "damage": "Special + 6",
+          "effect": "The user charges for one turn, raising its Special by 1, then attacks."
+        },
+        {
+          "name": "Mighty Cleave",
+          "type": "Rock",
+          "accuracy": "Strength + Brawl",
+          "damage": "Strength + 5",
+          "effect": "This move hits even if the target is using Protect or Detect."
+        },
+        {
+          "name": "Power Gem",
+          "type": "Rock",
+          "accuracy": "Special + Channel",
+          "damage": "Special + 5",
+          "effect": "None."
+        },
+        {
+          "name": "Rock Blast",
+          "type": "Rock",
+          "accuracy": "Strength + Brawl",
+          "damage": "Strength + 2",
+          "effect": "This move hits 2 to 5 times."
+        },
+        {
+          "name": "Rock Polish",
+          "type": "Rock",
+          "accuracy": "Automatic",
+          "damage": "None",
+          "effect": "Sharply raises the user's Dexterity by 2."
+        },
+        {
+          "name": "Rock Slide",
+          "type": "Rock",
+          "accuracy": "Strength + Brawl",
+          "damage": "Strength + 4",
+          "effect": "Hits all adjacent opponents. Roll 1d6. On a 6, targets Flinch."
+        },
+        {
+          "name": "Rock Throw",
+          "type": "Rock",
+          "accuracy": "Strength + Brawl",
+          "damage": "Strength + 3",
+          "effect": "None."
+        },
+        {
+          "name": "Rock Tomb",
+          "type": "Rock",
+          "accuracy": "Strength + Brawl",
+          "damage": "Strength + 4",
+          "effect": "Lowers the target's Dexterity by 1."
+        },
+        {
+          "name": "Rock Wrecker",
+          "type": "Rock",
+          "accuracy": "Strength + Brawl",
+          "damage": "Strength + 8",
+          "effect": "The user must recharge on the next turn."
+        },
+        {
+          "name": "Rollout",
+          "type": "Rock",
+          "accuracy": "Strength + Brawl",
+          "damage": "Strength + 2",
+          "effect": "This move's damage doubles each consecutive hit, up to 5 hits."
+        },
+        {
+          "name": "Salt Cure",
+          "type": "Rock",
+          "accuracy": "Automatic",
+          "damage": "None",
+          "effect": "The target takes 1/8 of its max HP in damage at the end of each round. Damage is doubled if the target is Water or Steel type."
+        },
+        {
+          "name": "Sandstorm",
+          "type": "Rock",
+          "accuracy": "Automatic",
+          "damage": "None",
+          "effect": "Creates a Sandstorm for 5 rounds."
+        },
+        {
+          "name": "Smack Down",
+          "type": "Rock",
+          "accuracy": "Special + Channel",
+          "damage": "Special + 3",
+          "effect": "Grounds the target, making it vulnerable to Ground-type moves."
+        },
+        {
+          "name": "Splintered Stormshards",
+          "type": "Rock",
+          "accuracy": "Strength + Brawl",
+          "damage": "Strength + 9",
+          "effect": "Z-Move. Destroys any active Terrain."
+        },
+        {
+          "name": "Stealth Rock",
+          "type": "Rock",
+          "accuracy": "Automatic",
+          "damage": "None",
+          "effect": "Sets a hazard on the opponent's side of the field. Pokémon entering the field take damage based on their weakness to Rock."
+        },
+        {
+          "name": "Stone Axe",
+          "type": "Rock",
+          "accuracy": "Strength + Brawl",
+          "damage": "Strength + 4",
+          "effect": "High Critical Hit Ratio. Sets up Stealth Rock on the opponent's side of the field."
+        },
+        {
+          "name": "Stone Edge",
+          "type": "Rock",
+          "accuracy": "Strength + Brawl",
+          "damage": "Strength + 6",
+          "effect": "High Critical Hit Ratio. Low Accuracy."
+        },
+        {
+          "name": "Tar Shot",
+          "type": "Rock",
+          "accuracy": "Automatic",
+          "damage": "None",
+          "effect": "Lowers the target's Dexterity by 1 and makes it weak to Fire-type moves."
+        },
+        {
+          "name": "Wide Guard",
+          "type": "Rock",
+          "accuracy": "Automatic",
+          "damage": "None",
+          "effect": "Priority. Protects the user and its allies from moves that hit multiple targets for one turn."
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,364 @@
+{
+  "game_data_compendium": {
+    "chapter_12_abilitydex": {
+      "part_1": [
+        {
+          "name": "Adaptability",
+          "effect": "Powers up moves of the same type as the Pokémon."
+        },
+        {
+          "name": "Aerilate",
+          "effect": "Normal-type moves become Flying-type moves and get a power boost."
+        },
+        {
+          "name": "Aftermath",
+          "effect": "Damages the attacker if it knocks out the Pokémon with a contact move."
+        },
+        {
+          "name": "Air Lock",
+          "effect": "Eliminates the effects of weather."
+        },
+        {
+          "name": "Analytic",
+          "effect": "Boosts the power of moves if the Pokémon moves last."
+        },
+        {
+          "name": "Anger Point",
+          "effect": "Maxes out the Pokémon's Attack stat if it takes a critical hit."
+        },
+        {
+          "name": "Anticipation",
+          "effect": "The Pokémon shudders if the foe has a super-effective move."
+        },
+        {
+          "name": "Arena Trap",
+          "effect": "Prevents opposing Pokémon from fleeing."
+        },
+        {
+          "name": "Aroma Veil",
+          "effect": "Protects allies from attacks that limit their move choices."
+        },
+        {
+          "name": "As One",
+          "effect": "Combines the effects of two Abilities: Unnerve and Chilling Neigh/Grim Neigh."
+        },
+        {
+          "name": "Aura Break",
+          "effect": "Reverses the effects of aura Abilities."
+        },
+        {
+          "name": "Bad Dreams",
+          "effect": "Reduces the HP of sleeping opposing Pokémon."
+        },
+        {
+          "name": "Ball Fetch",
+          "effect": "If the Pokémon is not holding an item, it will fetch the Poké Ball from a failed capture throw of a wild Pokémon."
+        },
+        {
+          "name": "Battery",
+          "effect": "Powers up the Special Attack of allies."
+        },
+        {
+          "name": "Battle Armor",
+          "effect": "Protects the Pokémon from critical hits."
+        },
+        {
+          "name": "Battle Bond",
+          "effect": "Transforms the Pokémon into Ash-Greninja after fainting an opponent. Water Shuriken becomes more powerful."
+        },
+        {
+          "name": "Beast Boost",
+          "effect": "Boosts the Pokémon's most proficient stat each time it knocks out a Pokémon."
+        },
+        {
+          "name": "Berserk",
+          "effect": "Boosts the Pokémon's Special Attack stat when its HP drops below half."
+        },
+        {
+          "name": "Big Pecks",
+          "effect": "Protects the Pokémon from Defense-lowering effects."
+        },
+        {
+          "name": "Blaze",
+          "effect": "Powers up Fire-type moves when the Pokémon's HP is low."
+        },
+        {
+          "name": "Bulletproof",
+          "effect": "Protects the Pokémon from some ball and bomb moves."
+        },
+        {
+          "name": "Cheek Pouch",
+          "effect": "Restores HP as well when the Pokémon eats a Berry."
+        },
+        {
+          "name": "Chilling Neigh",
+          "effect": "Boosts the Pokémon's Attack stat when it knocks out a Pokémon."
+        },
+        {
+          "name": "Chlorophyll",
+          "effect": "Boosts the Pokémon's Speed stat in harsh sunlight."
+        },
+        {
+          "name": "Clear Body",
+          "effect": "Prevents other Pokémon's moves or Abilities from lowering the Pokémon's stats."
+        },
+        {
+          "name": "Cloud Nine",
+          "effect": "Eliminates the effects of weather."
+        },
+        {
+          "name": "Color Change",
+          "effect": "The Pokémon's type changes to the type of the move it's hit by."
+        },
+        {
+          "name": "Comatose",
+          "effect": "The Pokémon is always treated as if it's asleep, but can still attack."
+        },
+        {
+          "name": "Competitive",
+          "effect": "Boosts the Special Attack stat sharply when a stat is lowered."
+        },
+        {
+          "name": "Compound Eyes",
+          "effect": "Boosts the accuracy of the Pokémon's moves."
+        },
+        {
+          "name": "Contrary",
+          "effect": "Makes stat changes have the opposite effect."
+        },
+        {
+          "name": "Corrosion",
+          "effect": "The Pokémon can poison the target even if it's a Steel or Poison type."
+        },
+        {
+          "name": "Cotton Down",
+          "effect": "Lowers the Speed stat of all Pokémon on the field, except the user, when the Pokémon is hit by an attack."
+        },
+        {
+          "name": "Cud Chew",
+          "effect": "When the Pokémon eats a Berry, it will eat it one more time at the end of the next turn."
+        },
+        {
+          "name": "Curious Medicine",
+          "effect": "When the Pokémon enters the battle, it resets all stat changes for all allies."
+        },
+        {
+          "name": "Cursed Body",
+          "effect": "May disable a move used on the Pokémon."
+        },
+        {
+          "name": "Cute Charm",
+          "effect": "Contact with the Pokémon may cause infatuation."
+        },
+        {
+          "name": "Damp",
+          "effect": "Prevents the use of self-destructing moves."
+        },
+        {
+          "name": "Dancer",
+          "effect": "Copies the opponent's dance moves."
+        },
+        {
+          "name": "Dark Aura",
+          "effect": "Powers up the Dark-type moves of all Pokémon on the field."
+        },
+        {
+          "name": "Dauntless Shield",
+          "effect": "Boosts the Pokémon's Defense stat when it enters a battle."
+        },
+        {
+          "name": "Dazzling",
+          "effect": "Protects the Pokémon and its allies from priority moves."
+        },
+        {
+          "name": "Defeatist",
+          "effect": "Halves the Pokémon's Attack and Special Attack stats when its HP is below half."
+        },
+        {
+          "name": "Defiant",
+          "effect": "Boosts the Pokémon's Attack stat sharply when its stats are lowered."
+        },
+        {
+          "name": "Delta Stream",
+          "effect": "Creates strong winds that protect Flying-type Pokémon from their weaknesses."
+        },
+        {
+          "name": "Desolate Land",
+          "effect": "Creates harsh sunlight that evaporates Water-type moves."
+        },
+        {
+          "name": "Disguise",
+          "effect": "Allows the Pokémon to escape damage from an attack once, then changes its appearance."
+        },
+        {
+          "name": "Download",
+          "effect": "Adjusts power according to the foe's lowest defensive stat."
+        },
+        {
+          "name": "Drizzle",
+          "effect": "The Pokémon makes it rain when it enters a battle."
+        },
+        {
+          "name": "Drought",
+          "effect": "Turns the sunlight harsh when the Pokémon enters a battle."
+        },
+        {
+          "name": "Dry Skin",
+          "effect": "Reduces HP in harsh sunlight, and restores it in rain or when hit by Water-type moves. Fire-type moves do more damage."
+        },
+        {
+          "name": "Early Bird",
+          "effect": "The Pokémon awakens from sleep twice as fast as other Pokémon."
+        },
+        {
+          "name": "Earth Eater",
+          "effect": "If the Pokémon is hit by a Ground-type move, its HP is restored instead of taking damage."
+        },
+        {
+          "name": "Effect Spore",
+          "effect": "Contact with the Pokémon may inflict poison, sleep, or paralysis on the attacker."
+        },
+        {
+          "name": "Electric Surge",
+          "effect": "Turns the ground into Electric Terrain when the Pokémon enters a battle."
+        },
+        {
+          "name": "Electromorphosis",
+          "effect": "The Pokémon becomes charged when it takes damage, boosting the power of the next Electric-type move it uses."
+        },
+        {
+          "name": "Emergency Exit",
+          "effect": "The Pokémon switches out of battle when its HP drops below half."
+        },
+        {
+          "name": "Fairy Aura",
+          "effect": "Powers up the Fairy-type moves of all Pokémon on the field."
+        },
+        {
+          "name": "Filter",
+          "effect": "Reduces the power of super-effective attacks taken."
+        },
+        {
+          "name": "Flame Body",
+          "effect": "Contact with the Pokémon may burn the attacker."
+        },
+        {
+          "name": "Flare Boost",
+          "effect": "Powers up special attacks when the Pokémon is burned."
+        },
+        {
+          "name": "Flash Fire",
+          "effect": "Powers up the Pokémon's Fire-type moves if it's hit by one."
+        },
+        {
+          "name": "Flower Gift",
+          "effect": "Boosts the Attack and Special Defense stats of itself and allies in harsh sunlight."
+        },
+        {
+          "name": "Flower Veil",
+          "effect": "Prevents allies that are Grass-type from having their stats lowered."
+        },
+        {
+          "name": "Fluffy",
+          "effect": "Halves the damage taken from moves that make direct contact, but doubles that of Fire-type moves."
+        },
+        {
+          "name": "Forecast",
+          "effect": "The Pokémon transforms with the weather."
+        },
+        {
+          "name": "Forewarn",
+          "effect": "Determines what moves an opposing Pokémon has."
+        },
+        {
+          "name": "Friend Guard",
+          "effect": "Reduces damage done to allies."
+        },
+        {
+          "name": "Frisk",
+          "effect": "The Pokémon can check an opposing Pokémon's held item."
+        },
+        {
+          "name": "Full Metal Body",
+          "effect": "Prevents other Pokémon's moves or Abilities from lowering the Pokémon's stats."
+        },
+        {
+          "name": "Fur Coat",
+          "effect": "Halves the damage from physical moves."
+        },
+        {
+          "name": "Galvanize",
+          "effect": "Normal-type moves become Electric-type moves and get a power boost."
+        },
+        {
+          "name": "Gluttony",
+          "effect": "Makes the Pokémon eat a held Berry when its HP drops to half or less, which is sooner than usual."
+        },
+        {
+          "name": "Good as Gold",
+          "effect": "A body of pure, solid gold gives the Pokémon complete immunity to status moves."
+        },
+        {
+          "name": "Gooey",
+          "effect": "Contact with the Pokémon lowers the attacker's Speed stat."
+        },
+        {
+          "name": "Gorilla Tactics",
+          "effect": "Boosts the Pokémon's Attack stat but only allows the use of the first move selected."
+        },
+        {
+          "name": "Grass Pelt",
+          "effect": "Boosts the Pokémon's Defense stat in Grassy Terrain."
+        },
+        {
+          "name": "Grassy Surge",
+          "effect": "Turns the ground into Grassy Terrain when the Pokémon enters a battle."
+        },
+        {
+          "name": "Grim Neigh",
+          "effect": "Boosts the Pokémon's Special Attack stat when it knocks out a Pokémon."
+        },
+        {
+          "name": "Guard Dog",
+          "effect": "Boosts the Pokémon’s Attack stat if intimidated. Moves and items that would force the Pokémon to switch out also fail to work."
+        },
+        {
+          "name": "Gulp Missile",
+          "effect": "When the Pokémon uses Surf or Dive, it will return with a catch. When hit, it will spit out the catch at the attacker."
+        },
+        {
+          "name": "Guts",
+          "effect": "It's so gutsy that having a status condition boosts its Attack stat."
+        },
+        {
+          "name": "Hadron Engine",
+          "effect": "Turns the ground into Electric Terrain when the Pokémon enters a battle. The futuristic engine within the Pokémon also boosts its Special Attack stat on Electric Terrain."
+        },
+        {
+          "name": "Harvest",
+          "effect": "May create another Berry after one is used."
+        },
+        {
+          "name": "Healer",
+          "effect": "Sometimes heals an ally's status condition."
+        },
+        {
+          "name": "Heatproof",
+          "effect": "The heatproof body of the Pokémon halves the damage from Fire-type moves."
+        },
+        {
+          "name": "Heavy Metal",
+          "effect": "Doubles the Pokémon's weight."
+        },
+        {
+          "name": "Honey Gather",
+          "effect": "The Pokémon may gather Honey after a battle."
+        },
+        {
+          "name": "Huge Power",
+          "effect": "Doubles the Pokémon's Attack stat."
+        }
+      ]
+    }
+  }
+}
